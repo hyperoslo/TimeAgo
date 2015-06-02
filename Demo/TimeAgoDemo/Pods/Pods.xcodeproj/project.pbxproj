@@ -7,575 +7,712 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14FBDF7AA21246CD7E2DDE9D /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = BBCBECEB3DC2FE50622F5815 /* NSDateTimeAgo.strings */; };
-		198F95540E176C463649043A /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = E25749C0B1F6E79C8BCF01D2 /* NSDateTimeAgo.strings */; };
-		1AA99E652AEDCBA68FB4D6C8 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5026312B9064F2C18D0C9C20 /* NSDateTimeAgo.strings */; };
-		239120740F9AAD87BE187EA2 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = C1207A5DB32EA1B1B952AA91 /* NSDateTimeAgo.strings */; };
-		30B83FF34D8AA5E841F73CDB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C29DD91B3D057615C5E6C /* Pods-dummy.m */; };
-		3B4E67671DFBFBD06CF9EC1E /* NSDate+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4CB05F39F6EE09CE621CB /* NSDate+TimeAgo.swift */; };
-		3D829D51746372819F95BF28 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DAD3D0E4B5A6DE9321CABE /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DC5048F3912E691AFEC9412 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 626214D1EF176D79DAB4A407 /* NSDateTimeAgo.strings */; };
-		3EB573845D7114D5AB313E76 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1531977AC409877816596666 /* NSDateTimeAgo.strings */; };
-		404E49E2ED108FCF08112847 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = E46297E90149094B210689E7 /* NSDateTimeAgo.strings */; };
-		49B388D84B7D7EAE392E08C5 /* Pods-TimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C306613D70C644633382096A /* Pods-TimeAgo-dummy.m */; };
-		53A721494A13A82A083A217E /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = C1E9F8B504752F750958AAB9 /* NSDateTimeAgo.strings */; };
-		5A2D8BCD6646CFE15E0791A4 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 3463032F4080C0F423DD8C71 /* NSDateTimeAgo.strings */; };
-		5F57720D71902AA8CD3FED82 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 50180CA2AC4ABAAA8C26FB12 /* NSDateTimeAgo.strings */; };
-		618E7ADE3B54D0F8366791C1 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = C4C21C944E46801BA3D63669 /* NSDateTimeAgo.strings */; };
-		63DB86BD0954C6F3227700A4 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5847FFE528C03F97002B0A91 /* NSDateTimeAgo.strings */; };
-		648E13177BD9A9299D2A62B3 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 0172E8D29D0D595D4A5FB8E7 /* NSDateTimeAgo.strings */; };
-		64F4BFCCE761ADF43A7D1840 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 76230CC58794715BA9FEF0F4 /* NSDateTimeAgo.strings */; };
-		680B38E5EE5682D15D28AAF9 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5F5859540FB81CAB33FD8 /* NSDateTimeAgo.strings */; };
-		6C7957DC42669AF4E29FF73F /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 3684AD96CA441C6DE940FF03 /* NSDateTimeAgo.strings */; };
-		6F4AA2685671380404060BF0 /* Pods-TimeAgo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB789BF3DEF6C9242B98C405 /* Pods-TimeAgo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71F9A5B3CD2CEF63EE34303F /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE35D3189156FC7371E6C /* NSDateTimeAgo.strings */; };
-		80789E430B1A151BE29D127B /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = ED82BB1FBDEA92CF97F42D0F /* NSDateTimeAgo.strings */; };
-		881F9C5038856B77EA86E28D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56426AFF4D911140FAFB46E /* Foundation.framework */; };
-		8A96D79CC22B8DF95E995215 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 76FF327C4884EDF42F0DC9FC /* NSDateTimeAgo.strings */; };
-		9191617FE85C480162B1AA51 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5F0040158A74E633BD576496 /* NSDateTimeAgo.strings */; };
-		91C27637E6936EF49178CF78 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 70C34E08E730A68CD4ACB884 /* NSDateTimeAgo.strings */; };
-		980DD2B9C3368CEF9440D221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56426AFF4D911140FAFB46E /* Foundation.framework */; };
-		9CEF081B866A22E60C99EDAD /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = F18C719EC9C3807F0B2611CB /* NSDateTimeAgo.strings */; };
-		9CF0F557B66512FFAA3BCABD /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = CCCC3EA520D3A7FCCBB42E28 /* NSDateTimeAgo.strings */; };
-		A91073F1493D8A0DA517EAF1 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = E7671AE3BD19BEE916552A89 /* NSDateTimeAgo.strings */; };
-		B888863ACDDED325E445FAFA /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 38AD31654CF779F70BB890BD /* NSDateTimeAgo.strings */; };
-		B8D46ECE97A4FDA3D10F605F /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 00C9BBF2F88AD9C54A90824A /* NSDateTimeAgo.strings */; };
-		C0AFCAF7DB3F43DBD07F8BA2 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 780DD8CBB426B3AD07E4BB92 /* NSDateTimeAgo.strings */; };
-		C613E87135D5D3421C403E6A /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = C01E7438BE44B975F89EEFBB /* NSDateTimeAgo.strings */; };
-		D28402B85F28A61FB58BB22E /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5E1740E440FCF7364AD3A0C3 /* NSDateTimeAgo.strings */; };
-		D3ADE60A0777BDBE66493A2C /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = A5405936E870CBBD282B2871 /* NSDateTimeAgo.strings */; };
-		D74182B1D8E76CB506D9D476 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = D7A7C425044C0A7314961031 /* NSDateTimeAgo.strings */; };
-		DF60D36F3FE1D4A1B8C03865 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 381C572BC14DE39FD1B79362 /* NSDateTimeAgo.strings */; };
-		F3E6952FBC3C24281E133320 /* NSDateTimeAgo.strings in Sources */ = {isa = PBXBuildFile; fileRef = 4DB664CFD0793C6337673D7E /* NSDateTimeAgo.strings */; };
+		0EE8FD14A940F206C0A86BC6 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F230E1A343BCC967A2581F3 /* NSDateTimeAgo.strings */; };
+		12A657FE715E70C770FB61D9 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CBD067A3F9B455223EAB17D /* NSDateTimeAgo.strings */; };
+		1574F9E9FC816A234D70BC9B /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D02D8D534FCFA20A6C307810 /* ro.lproj */; };
+		19B8A7E22C4C3F7CEE016263 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321281773E2912CF494FA6A7 /* NSDateTimeAgo.strings */; };
+		2586F2ABBEC74ED1CCDEC01D /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = E544DDB10BFC1718B7B25C81 /* NSDateTimeAgo.strings */; };
+		2694DFDCF4C35F4309C0F1A8 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA554E284F975258B7F8EAF /* NSDateTimeAgo.strings */; };
+		2A476BF225211806205F7196 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC3379150D4C7C13ED7FE18 /* NSDateTimeAgo.strings */; };
+		2CDF37D42ECF6862997310A6 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DF325DFCED24F9D8E79A072B /* zh-Hant.lproj */; };
+		3079D96C64B26F15C8B71B00 /* is.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EF91C238AD26D427AABA74EC /* is.lproj */; };
+		31AC50A3595CAB96EF85D4CA /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CD2FC26B77C46B143B6A5183 /* pt.lproj */; };
+		32DE2008B0D19A2A1003A0C4 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4B66C3341094BADE1695FC6D /* it.lproj */; };
+		3651EE7E3A1EEE5B32A996FB /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0B4B0EE6F1F47A9DE990D12 /* NSDateTimeAgo.strings */; };
+		37CB1E96CEFCBBBF05531BEA /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBF10955F3A0F697428AECC4 /* cs.lproj */; };
+		3BBAB8F7AB53CAAD57282D91 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5133F0CE5D903C57502127C /* NSDateTimeAgo.strings */; };
+		49750698BDFEA280F369E255 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F236B552ABFD45BC4FF92951 /* en.lproj */; };
+		4B8BB5420B1A55E152DE7055 /* Pods-TimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779E3890F25D619A118F8986 /* Pods-TimeAgo-dummy.m */; };
+		50B8EAF3F7B3809F56129570 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E09B7DB1DC48F267F3A003 /* NSDateTimeAgo.strings */; };
+		51D30267ADF54556134DC0CC /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = F493D9547A224FDBB1CF9E75 /* NSDateTimeAgo.strings */; };
+		51E32BEC8ACE0A9C4B527E31 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F6872924B47536B97211CA3 /* NSDateTimeAgo.strings */; };
+		52A0E9BD41FBD19AE65AC76E /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94759BF84AAF4D5B79395404 /* NSDateTimeAgo.strings */; };
+		56FFF0F54EF4B75F0B2A01A2 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 341E2FE7422274A43DC4DA82 /* NSDateTimeAgo.strings */; };
+		581845B83372D4040BC68A68 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C90F5CFB44941E5AFAFB40 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAB54663C1A9FDF4E675232 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9C653EFB5892D7A10D96790 /* NSDateTimeAgo.strings */; };
+		5F2A8446A65CBE70B01068D9 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBCDA8FB804F489D7A29CF74 /* th.lproj */; };
+		6287C8392A9DA35DDC521E66 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F3CF785BC3301F184B9E6A /* NSDateTimeAgo.strings */; };
+		649EF6BFD2A3027076BDEF47 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0295E3A82E24DB31C35D56CD /* de.lproj */; };
+		658981CE21D7B4B56224E8A8 /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EA503D3CB41A8FC686D11F2B /* uk.lproj */; };
+		68AD2D6F27A3B24E25D2ECD4 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1FE87D7FCB2A469EECB6AE8 /* NSDateTimeAgo.strings */; };
+		69B20985DEEBC0D470A011F2 /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1A9C804C95AA0FF480A62 /* he.lproj */; };
+		69D0FCC034EA4999A159605D /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65831BA08D55FE96B5013017 /* NSDateTimeAgo.strings */; };
+		6A8AEC1376BA2439586EDECC /* sq.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0923323AA072251B7ED81445 /* sq.lproj */; };
+		6D64E69F6E7A90D315E5E92A /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 730B5B6142160218EF8DBE41 /* vi.lproj */; };
+		73BABA55016737F3ABF4519A /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C04900655017FF5B71F56559 /* nb.lproj */; };
+		74B50B1343CBE205624E76A5 /* bg.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5884A7A1B1057AD3AD7E57A4 /* bg.lproj */; };
+		7976240B016333E6E85C67A9 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11EC2AEE4154CC744E93D226 /* NSDateTimeAgo.strings */; };
+		7F9BCEB708D2D25F93176968 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 66C7268DC5D205F4531A4933 /* pl.lproj */; };
+		82B4931264C559CDA183E1D6 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F9E3A140DA380D1940DCE /* sk.lproj */; };
+		85FEE9DB7D5A837665473FD2 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE18FCB5D82A930F6D6EFA2E /* NSDateTimeAgo.strings */; };
+		87417F061F8C6C9139B0A5A2 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC32E7A199D8B9F66D4AA9 /* ja.lproj */; };
+		94D4BDE11604F4A0764C916A /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DDBF22D9E10356559D6CC /* NSDateTimeAgo.strings */; };
+		A7315AE4592079BA90AF4BA9 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A4AB69C96F38DF173EBBCA /* NSDateTimeAgo.strings */; };
+		A78D54129B8AA1299F3737DD /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 53D4761244877AF15DBF1645 /* es.lproj */; };
+		AB2772CF1DE3195986BE0DED /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A016ED1C376F39453EF0D /* NSDateTimeAgo.strings */; };
+		AB700FBA47848DB7AD967BD8 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C5975A80907281E14152427 /* NSDateTimeAgo.strings */; };
+		AC872F69E12F5BEC77356BAF /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8D6EB18D204A710CA8EB992A /* hu.lproj */; };
+		AD632840DC7841FEE52D033F /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAC577DD3DC8EC28C5F38C /* ar.lproj */; };
+		B0B0CC2CF1DCAB488072AB2D /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97BD9176FDEB98F69150D66C /* NSDateTimeAgo.strings */; };
+		B19AC467A03840EA301B2D54 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEBBB004DF24A1C2B475FE32 /* NSDateTimeAgo.strings */; };
+		B1EFF4CAD04610B465F63926 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 123EF9B6BE5277473ED5F8CC /* NSDateTimeAgo.strings */; };
+		B22B3B7DFAD58A5065FF8D30 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5313BB54742D5899F2DF87C4 /* NSDateTimeAgo.strings */; };
+		B518A38681296EF1F0A24E44 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 55DB3A908FE1C45CEF51FDB3 /* fr.lproj */; };
+		BB9C347912BF3EB549799D99 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8344D9D37ED3E7FF2AED810C /* NSDateTimeAgo.strings */; };
+		BC55175646DCDD35B08C32C2 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B59C5EDA1686FD77612ADC2B /* zh-Hans.lproj */; };
+		BD398E2BEB46670655265C11 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 383EBCBC3715876388E69B34 /* NSDateTimeAgo.bundle */; };
+		BFE25DC9126AD8677AD6A79C /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 859C318B6B7C30F394C3A677 /* sv.lproj */; };
+		C126BFD07DB71CB9075B0FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613CA5E6374D7E6EC9ADCD5 /* Foundation.framework */; };
+		C31D70100502796A27D4E238 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE2AF80AC52B59365FE980 /* ru.lproj */; };
+		C4E449FC1822C41AA90CC52E /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 743CEE4D5AE8D2AF3A99AA00 /* da.lproj */; };
+		C7E6516ECE048304A07081E0 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA3C3EB0672C93922072B687 /* NSDateTimeAgo.strings */; };
+		C8D6FF6396D4E9B7ECF5A1FA /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CD6B3D8078322A14621338CB /* pt-PT.lproj */; };
+		CCDB85E94DA6B07C1A30E5CE /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = B41ABACE580E750F8A69D4B4 /* NSDateTimeAgo.strings */; };
+		D1475CDB182894EA44A45B01 /* NSDate+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1683D2AB3ED4560129366 /* NSDate+TimeAgo.swift */; };
+		D9A13E1A90473A71DFD8010F /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ACF14959A915CFEF172E360 /* NSDateTimeAgo.strings */; };
+		DC36426CDE0D3A42B12CBA16 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A639B459F3F2A316816A /* Pods-dummy.m */; };
+		DF0A492C576AE64F3645D88B /* Pods-TimeAgo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FBC6348712B5F166FB66D6 /* Pods-TimeAgo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E213947C80A745137A8A62F2 /* gre.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 67E534E89E0BB69CEB1FAC26 /* gre.lproj */; };
+		E5B2DE122618A760AD1BA362 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E80D4571A24801FF936EA566 /* ko.lproj */; };
+		E7CA7F120D2F325DF518E30D /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CE1C71F5BDD2E889735F7076 /* tr.lproj */; };
+		F1D36BBF7B8CBF7268CC2F9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613CA5E6374D7E6EC9ADCD5 /* Foundation.framework */; };
+		F71F0DCC30D6B04DFBBABD0A /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F004C322EA89CE839166119F /* nl.lproj */; };
+		F74A72E618BAEC969492BD22 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC091A0A6DB3A653E6125ED /* NSDateTimeAgo.strings */; };
+		F828A7496EE32726C8A64C02 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EA3168396FDE191D410542 /* NSDateTimeAgo.strings */; };
+		F96C9475078C2D51B0AC653A /* lv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5E68C0F1A0688E5969A05BD0 /* lv.lproj */; };
+		FE706D39A13C1A790ED3F440 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EAC7799A3D873A7DED07B22D /* fi.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D3D5A82D1C7A20BAF5C9A38 /* PBXContainerItemProxy */ = {
+		71AE723FD4AE234C10683F19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A23DEBDD6EFB27B1CB0CE686 /* Project object */;
+			containerPortal = 3A8544D5DC07FEF36C764B18 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE9E1FFF18E0C1DC514FF24B;
+			remoteGlobalIDString = 3AD3B7AAC4E9425FBCF5FE73;
 			remoteInfo = "Pods-TimeAgo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C9BBF2F88AD9C54A90824A /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		0172E8D29D0D595D4A5FB8E7 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		041A8E7A21B16D6084338ACC /* Pods-TimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo.xcconfig"; sourceTree = "<group>"; };
-		1531977AC409877816596666 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		1ED5F5859540FB81CAB33FD8 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		23DAD3D0E4B5A6DE9321CABE /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2BFEE35D3189156FC7371E6C /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		3463032F4080C0F423DD8C71 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		3684AD96CA441C6DE940FF03 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		381C572BC14DE39FD1B79362 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		38AD31654CF779F70BB890BD /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		49A4CB05F39F6EE09CE621CB /* NSDate+TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+TimeAgo.swift"; sourceTree = "<group>"; };
-		4DB664CFD0793C6337673D7E /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		4DFE0EA611AB3E0E4C2384C5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		50180CA2AC4ABAAA8C26FB12 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		5026312B9064F2C18D0C9C20 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		5847FFE528C03F97002B0A91 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		5C7C29DD91B3D057615C5E6C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		5D8FABEEC6C2E161ECA99D75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E1740E440FCF7364AD3A0C3 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		5F0040158A74E633BD576496 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		626214D1EF176D79DAB4A407 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		6464F8050036812D2A7CC0C1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		703D948F47B5725611E4BAAB /* Pods-TimeAgo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeAgo.modulemap"; sourceTree = "<group>"; };
-		70C34E08E730A68CD4ACB884 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		76230CC58794715BA9FEF0F4 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		76FF327C4884EDF42F0DC9FC /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		780DD8CBB426B3AD07E4BB92 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		822AD98DB5CF12929BD21CEF /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		82C2D97E4E702916E09E8DB0 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		881E8A1CBECF0F94501D828B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		90E84B6C9FD6CA2A8DF872B2 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		A5405936E870CBBD282B2871 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		AB789BF3DEF6C9242B98C405 /* Pods-TimeAgo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeAgo-umbrella.h"; sourceTree = "<group>"; };
-		B6E8FA4350E6638DF26D2E72 /* Pods-TimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeAgo-prefix.pch"; sourceTree = "<group>"; };
-		BBCBECEB3DC2FE50622F5815 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		C01E7438BE44B975F89EEFBB /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		C1207A5DB32EA1B1B952AA91 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		C1E9F8B504752F750958AAB9 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		C306613D70C644633382096A /* Pods-TimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeAgo-dummy.m"; sourceTree = "<group>"; };
-		C47C70B2ECE983C8BDE8F909 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		C4C21C944E46801BA3D63669 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		C56426AFF4D911140FAFB46E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CA39C9AAA72D7B9C4C3521B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		CCCC3EA520D3A7FCCBB42E28 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		D7A7C425044C0A7314961031 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		E0E6427A2A2ED930DC676C8F /* Pods-TimeAgo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo-Private.xcconfig"; sourceTree = "<group>"; };
-		E1359DDB084BE1E13F0D1E09 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25749C0B1F6E79C8BCF01D2 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		E46297E90149094B210689E7 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		E68AFB2126B1D31BEADED727 /* TimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E69765CA5849F168DD62DBC3 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7671AE3BD19BEE916552A89 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		ED82BB1FBDEA92CF97F42D0F /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		F18C719EC9C3807F0B2611CB /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
-		F76D00B61068BC7B84839C5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F1DA89A7824B80DD2602C6 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		0295E3A82E24DB31C35D56CD /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = de.lproj; sourceTree = "<group>"; };
+		0923323AA072251B7ED81445 /* sq.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = sq.lproj; sourceTree = "<group>"; };
+		0ABE2AF80AC52B59365FE980 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ru.lproj; sourceTree = "<group>"; };
+		0FCAE57B75EC5423DA05CE16 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11A4AB69C96F38DF173EBBCA /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		11EC2AEE4154CC744E93D226 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		123EF9B6BE5277473ED5F8CC /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		1B1F9E3A140DA380D1940DCE /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = sk.lproj; sourceTree = "<group>"; };
+		20FBC6348712B5F166FB66D6 /* Pods-TimeAgo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeAgo-umbrella.h"; sourceTree = "<group>"; };
+		2AB554D0E3653EFCA1FEFB68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		3166A639B459F3F2A316816A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		321281773E2912CF494FA6A7 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		32F3CF785BC3301F184B9E6A /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		341E2FE7422274A43DC4DA82 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		3613CA5E6374D7E6EC9ADCD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		383EBCBC3715876388E69B34 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		3D6DDBF22D9E10356559D6CC /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		3F3A016ED1C376F39453EF0D /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		3F6872924B47536B97211CA3 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		3FE1A9C804C95AA0FF480A62 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = he.lproj; sourceTree = "<group>"; };
+		4B66C3341094BADE1695FC6D /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = it.lproj; sourceTree = "<group>"; };
+		50EE3F9A9E03C84090E6F878 /* Pods-TimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo.xcconfig"; sourceTree = "<group>"; };
+		5313BB54742D5899F2DF87C4 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		53D4761244877AF15DBF1645 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		53E09B7DB1DC48F267F3A003 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		55C5E72985F602271A379C1A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		55DB3A908FE1C45CEF51FDB3 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
+		5884A7A1B1057AD3AD7E57A4 /* bg.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = bg.lproj; sourceTree = "<group>"; };
+		5AC3379150D4C7C13ED7FE18 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		5CBD067A3F9B455223EAB17D /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		5E68C0F1A0688E5969A05BD0 /* lv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = lv.lproj; sourceTree = "<group>"; };
+		65831BA08D55FE96B5013017 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		66C7268DC5D205F4531A4933 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = pl.lproj; sourceTree = "<group>"; };
+		66E1683D2AB3ED4560129366 /* NSDate+TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+TimeAgo.swift"; sourceTree = "<group>"; };
+		67E534E89E0BB69CEB1FAC26 /* gre.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = gre.lproj; sourceTree = "<group>"; };
+		67F26A2B8E810ABE64908DC5 /* Pods-TimeAgo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeAgo.modulemap"; sourceTree = "<group>"; };
+		694A069197B05F5D43BE5FDB /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		6ACF14959A915CFEF172E360 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		6F230E1A343BCC967A2581F3 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		730B5B6142160218EF8DBE41 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = vi.lproj; sourceTree = "<group>"; };
+		743CEE4D5AE8D2AF3A99AA00 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = da.lproj; sourceTree = "<group>"; };
+		779E3890F25D619A118F8986 /* Pods-TimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeAgo-dummy.m"; sourceTree = "<group>"; };
+		7AFC32E7A199D8B9F66D4AA9 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ja.lproj; sourceTree = "<group>"; };
+		8344D9D37ED3E7FF2AED810C /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		84C90F5CFB44941E5AFAFB40 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		859C318B6B7C30F394C3A677 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = sv.lproj; sourceTree = "<group>"; };
+		8D6EB18D204A710CA8EB992A /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = hu.lproj; sourceTree = "<group>"; };
+		8E77EDC038A81324ADFC50E9 /* Pods-TimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeAgo-prefix.pch"; sourceTree = "<group>"; };
+		8EBAC577DD3DC8EC28C5F38C /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ar.lproj; sourceTree = "<group>"; };
+		94759BF84AAF4D5B79395404 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		97BD9176FDEB98F69150D66C /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		9AA554E284F975258B7F8EAF /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		9AE46032EDA8BFD7F4E2708B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9C5975A80907281E14152427 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		A5A7F2608EE8099FD773F0DA /* Pods-TimeAgo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo-Private.xcconfig"; sourceTree = "<group>"; };
+		B07E17A73F1208F6BC51DB68 /* TimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41ABACE580E750F8A69D4B4 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		B59C5EDA1686FD77612ADC2B /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		BEBBB004DF24A1C2B475FE32 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		C04900655017FF5B71F56559 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = nb.lproj; sourceTree = "<group>"; };
+		C0B4B0EE6F1F47A9DE990D12 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		C3698A83545C3F93A1511A11 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7EA3168396FDE191D410542 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		C9DF9EB44C370F838B5C112B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3C3EB0672C93922072B687 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		CBCDA8FB804F489D7A29CF74 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = th.lproj; sourceTree = "<group>"; };
+		CBF10955F3A0F697428AECC4 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = cs.lproj; sourceTree = "<group>"; };
+		CD2FC26B77C46B143B6A5183 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = pt.lproj; sourceTree = "<group>"; };
+		CD6B3D8078322A14621338CB /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "pt-PT.lproj"; sourceTree = "<group>"; };
+		CE1C71F5BDD2E889735F7076 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = tr.lproj; sourceTree = "<group>"; };
+		D02D8D534FCFA20A6C307810 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ro.lproj; sourceTree = "<group>"; };
+		D5133F0CE5D903C57502127C /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		D9C653EFB5892D7A10D96790 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		DF325DFCED24F9D8E79A072B /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
+		E1FE87D7FCB2A469EECB6AE8 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		E544DDB10BFC1718B7B25C81 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		E66D35768D3A06B49867ED96 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E80D4571A24801FF936EA566 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ko.lproj; sourceTree = "<group>"; };
+		EA503D3CB41A8FC686D11F2B /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = uk.lproj; sourceTree = "<group>"; };
+		EAC091A0A6DB3A653E6125ED /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		EAC7799A3D873A7DED07B22D /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = fi.lproj; sourceTree = "<group>"; };
+		EF91C238AD26D427AABA74EC /* is.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = is.lproj; sourceTree = "<group>"; };
+		F004C322EA89CE839166119F /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = nl.lproj; sourceTree = "<group>"; };
+		F10B20DE713EEEF246A97D2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236B552ABFD45BC4FF92951 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		F493D9547A224FDBB1CF9E75 /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		F9A2B11329AFD868B8873089 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA93FC39E9AF1CC5A34A1F64 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE18FCB5D82A930F6D6EFA2E /* NSDateTimeAgo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = NSDateTimeAgo.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65727D12C327261B4A424E38 /* Frameworks */ = {
+		1156AB95F81EAD1173E34097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				980DD2B9C3368CEF9440D221 /* Foundation.framework in Frameworks */,
+				C126BFD07DB71CB9075B0FD0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C06F0C4254C939825D2F48A3 /* Frameworks */ = {
+		FDB6400F4054729824AF5D52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881F9C5038856B77EA86E28D /* Foundation.framework in Frameworks */,
+				F1D36BBF7B8CBF7268CC2F9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0313C6D932C54866E673D015 /* zh-Hans.lproj */ = {
+		2A3D8A6330FDB883C742B88E /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				38AD31654CF779F70BB890BD /* NSDateTimeAgo.strings */,
+				65831BA08D55FE96B5013017 /* NSDateTimeAgo.strings */,
 			);
-			path = "zh-Hans.lproj";
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		078A5D348024903A6859959B /* Pods */ = {
+		36EB92400CE43FBABE954AC2 /* sq.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				F76D00B61068BC7B84839C5B /* Info.plist */,
-				90E84B6C9FD6CA2A8DF872B2 /* Pods.modulemap */,
-				6464F8050036812D2A7CC0C1 /* Pods-acknowledgements.markdown */,
-				E69765CA5849F168DD62DBC3 /* Pods-acknowledgements.plist */,
-				5C7C29DD91B3D057615C5E6C /* Pods-dummy.m */,
-				82C2D97E4E702916E09E8DB0 /* Pods-environment.h */,
-				C47C70B2ECE983C8BDE8F909 /* Pods-frameworks.sh */,
-				822AD98DB5CF12929BD21CEF /* Pods-resources.sh */,
-				23DAD3D0E4B5A6DE9321CABE /* Pods-umbrella.h */,
-				4DFE0EA611AB3E0E4C2384C5 /* Pods.debug.xcconfig */,
-				CA39C9AAA72D7B9C4C3521B1 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		0F6E8EF9FCCB2053429696E7 /* is.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				5F0040158A74E633BD576496 /* NSDateTimeAgo.strings */,
-			);
-			path = is.lproj;
-			sourceTree = "<group>";
-		};
-		10C85DAE6A824BB4AB70EDC2 /* ru.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				3463032F4080C0F423DD8C71 /* NSDateTimeAgo.strings */,
-			);
-			path = ru.lproj;
-			sourceTree = "<group>";
-		};
-		132659CD09CA34E383D8658E /* pl.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				76230CC58794715BA9FEF0F4 /* NSDateTimeAgo.strings */,
-			);
-			path = pl.lproj;
-			sourceTree = "<group>";
-		};
-		181B7C4A202A145491FCEDFC /* gre.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				3684AD96CA441C6DE940FF03 /* NSDateTimeAgo.strings */,
-			);
-			path = gre.lproj;
-			sourceTree = "<group>";
-		};
-		1BD9BA220EDB9CDB7D874551 = {
-			isa = PBXGroup;
-			children = (
-				881E8A1CBECF0F94501D828B /* Podfile */,
-				2B983F8514D10142A281B751 /* Development Pods */,
-				9702E84672405654DCDF72AF /* Frameworks */,
-				D28EE591A082991652A30984 /* Products */,
-				DBCE551110EEB5BE188B1DB3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		24B585C090A5D5993AF4612B /* sq.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				2BFEE35D3189156FC7371E6C /* NSDateTimeAgo.strings */,
+				321281773E2912CF494FA6A7 /* NSDateTimeAgo.strings */,
 			);
 			path = sq.lproj;
 			sourceTree = "<group>";
 		};
-		2567BBB1A3EC13F6C0BD4BBB /* Support Files */ = {
+		3CB9C86B076EE88794082E07 /* de.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				5D8FABEEC6C2E161ECA99D75 /* Info.plist */,
-				703D948F47B5725611E4BAAB /* Pods-TimeAgo.modulemap */,
-				041A8E7A21B16D6084338ACC /* Pods-TimeAgo.xcconfig */,
-				E0E6427A2A2ED930DC676C8F /* Pods-TimeAgo-Private.xcconfig */,
-				C306613D70C644633382096A /* Pods-TimeAgo-dummy.m */,
-				B6E8FA4350E6638DF26D2E72 /* Pods-TimeAgo-prefix.pch */,
-				AB789BF3DEF6C9242B98C405 /* Pods-TimeAgo-umbrella.h */,
+				3F6872924B47536B97211CA3 /* NSDateTimeAgo.strings */,
+			);
+			path = de.lproj;
+			sourceTree = "<group>";
+		};
+		3D73FFDDF180089D79865895 /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D9C653EFB5892D7A10D96790 /* NSDateTimeAgo.strings */,
+			);
+			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+		44FDEDA0024C9189F2DFC650 /* zh-Hant.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				11EC2AEE4154CC744E93D226 /* NSDateTimeAgo.strings */,
+			);
+			path = "zh-Hant.lproj";
+			sourceTree = "<group>";
+		};
+		4684E67417614D4F09560293 /* sk.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6F230E1A343BCC967A2581F3 /* NSDateTimeAgo.strings */,
+			);
+			path = sk.lproj;
+			sourceTree = "<group>";
+		};
+		473EEF79C04DEF74F320717C /* pt-PT.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D5133F0CE5D903C57502127C /* NSDateTimeAgo.strings */,
+			);
+			path = "pt-PT.lproj";
+			sourceTree = "<group>";
+		};
+		485ACCE9C3312AF980F91F81 /* lv.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE87D7FCB2A469EECB6AE8 /* NSDateTimeAgo.strings */,
+			);
+			path = lv.lproj;
+			sourceTree = "<group>";
+		};
+		4928BBF769F51ED807E00D10 /* th.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C3EB0672C93922072B687 /* NSDateTimeAgo.strings */,
+			);
+			path = th.lproj;
+			sourceTree = "<group>";
+		};
+		565A39BE1E2777E5A45659E5 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5AC3379150D4C7C13ED7FE18 /* NSDateTimeAgo.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		5AD5EAAADF6368EB8FA1CB6D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3613CA5E6374D7E6EC9ADCD5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61D310CDB20E4CB803D6BA3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				731EA291B868FEC48ECA0329 /* Resources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		66D2045AC9B3D5DB69680EE4 /* sv.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C0B4B0EE6F1F47A9DE990D12 /* NSDateTimeAgo.strings */,
+			);
+			path = sv.lproj;
+			sourceTree = "<group>";
+		};
+		716ED22D2AC9FC458F01F452 /* ar.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B41ABACE580E750F8A69D4B4 /* NSDateTimeAgo.strings */,
+			);
+			path = ar.lproj;
+			sourceTree = "<group>";
+		};
+		731EA291B868FEC48ECA0329 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				383EBCBC3715876388E69B34 /* NSDateTimeAgo.bundle */,
+				D38D2B0A5767CE28BF071801 /* NSDateTimeAgo.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8847D7DACF30FB9295B225B9 /* nl.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DDBF22D9E10356559D6CC /* NSDateTimeAgo.strings */,
+			);
+			path = nl.lproj;
+			sourceTree = "<group>";
+		};
+		8D87A671152B1DFFBF88EA92 /* pl.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8344D9D37ED3E7FF2AED810C /* NSDateTimeAgo.strings */,
+			);
+			path = pl.lproj;
+			sourceTree = "<group>";
+		};
+		8FF7C4A70C05E42442DEA3FD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				66E1683D2AB3ED4560129366 /* NSDate+TimeAgo.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		93862CFC3C58803D6AFE338C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5EAAADF6368EB8FA1CB6D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		938ED25C50B19CA00533769D /* fi.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				123EF9B6BE5277473ED5F8CC /* NSDateTimeAgo.strings */,
+			);
+			path = fi.lproj;
+			sourceTree = "<group>";
+		};
+		9FF665CC8848CB1A4646F31C /* he.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				11A4AB69C96F38DF173EBBCA /* NSDateTimeAgo.strings */,
+			);
+			path = he.lproj;
+			sourceTree = "<group>";
+		};
+		A617D3BF9FF148FF8BD2CD8C /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A016ED1C376F39453EF0D /* NSDateTimeAgo.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		A71A63AAA6CE384D57F460EE /* is.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				53E09B7DB1DC48F267F3A003 /* NSDateTimeAgo.strings */,
+			);
+			path = is.lproj;
+			sourceTree = "<group>";
+		};
+		AC606A5E9EC04842286D2866 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF9EB44C370F838B5C112B /* Info.plist */,
+				67F26A2B8E810ABE64908DC5 /* Pods-TimeAgo.modulemap */,
+				50EE3F9A9E03C84090E6F878 /* Pods-TimeAgo.xcconfig */,
+				A5A7F2608EE8099FD773F0DA /* Pods-TimeAgo-Private.xcconfig */,
+				779E3890F25D619A118F8986 /* Pods-TimeAgo-dummy.m */,
+				8E77EDC038A81324ADFC50E9 /* Pods-TimeAgo-prefix.pch */,
+				20FBC6348712B5F166FB66D6 /* Pods-TimeAgo-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Demo/TimeAgoDemo/Pods/Target Support Files/Pods-TimeAgo";
 			sourceTree = "<group>";
 		};
-		2B983F8514D10142A281B751 /* Development Pods */ = {
+		B6CC23597EB8D12A17B15F8C /* ru.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				4E4D45B89B5A14DB44F497CF /* TimeAgo */,
+				5CBD067A3F9B455223EAB17D /* NSDateTimeAgo.strings */,
 			);
-			name = "Development Pods";
+			path = ru.lproj;
 			sourceTree = "<group>";
 		};
-		35A03FE95E3DDCCFACE0A13E /* ja.lproj */ = {
+		B7D3D3294817D5CB2D68DD26 /* ro.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				5026312B9064F2C18D0C9C20 /* NSDateTimeAgo.strings */,
+				5313BB54742D5899F2DF87C4 /* NSDateTimeAgo.strings */,
 			);
-			path = ja.lproj;
+			path = ro.lproj;
 			sourceTree = "<group>";
 		};
-		45C4D02C3F187788153E6C0D /* uk.lproj */ = {
+		BC7268DF2917586F00D01096 /* bg.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				E25749C0B1F6E79C8BCF01D2 /* NSDateTimeAgo.strings */,
+				9AA554E284F975258B7F8EAF /* NSDateTimeAgo.strings */,
 			);
-			path = uk.lproj;
+			path = bg.lproj;
 			sourceTree = "<group>";
 		};
-		46E8CE50702F84B8026F39B2 /* es.lproj */ = {
+		BCC5CDB1EBB3F513E185F04F /* TimeAgo */ = {
 			isa = PBXGroup;
 			children = (
-				A5405936E870CBBD282B2871 /* NSDateTimeAgo.strings */,
-			);
-			path = es.lproj;
-			sourceTree = "<group>";
-		};
-		4763F5F9EC0990E79ADB90CC /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				BBCBECEB3DC2FE50622F5815 /* NSDateTimeAgo.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		478ABE6402774986B0488700 /* de.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				E46297E90149094B210689E7 /* NSDateTimeAgo.strings */,
-			);
-			path = de.lproj;
-			sourceTree = "<group>";
-		};
-		4E4D45B89B5A14DB44F497CF /* TimeAgo */ = {
-			isa = PBXGroup;
-			children = (
-				9B580698EE8B9E972782762A /* Source */,
-				2567BBB1A3EC13F6C0BD4BBB /* Support Files */,
+				61D310CDB20E4CB803D6BA3F /* Resources */,
+				8FF7C4A70C05E42442DEA3FD /* Source */,
+				AC606A5E9EC04842286D2866 /* Support Files */,
 			);
 			name = TimeAgo;
 			path = ../../..;
 			sourceTree = "<group>";
 		};
-		4F562B0EB6CF33E49E33919F /* it.lproj */ = {
+		BF8E5F2748C4799A926713F4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70C34E08E730A68CD4ACB884 /* NSDateTimeAgo.strings */,
+				BCC5CDB1EBB3F513E185F04F /* TimeAgo */,
 			);
-			path = it.lproj;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		53DA816BEEFE798F0B5C8E45 /* nb.lproj */ = {
+		C23D61D93376908E9F36A198 /* da.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				626214D1EF176D79DAB4A407 /* NSDateTimeAgo.strings */,
-			);
-			path = nb.lproj;
-			sourceTree = "<group>";
-		};
-		56C7D3EACA2148BCBB1B1952 /* bg.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				C1207A5DB32EA1B1B952AA91 /* NSDateTimeAgo.strings */,
-			);
-			path = bg.lproj;
-			sourceTree = "<group>";
-		};
-		74E73AAF7F296C298FA1865B /* vi.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				76FF327C4884EDF42F0DC9FC /* NSDateTimeAgo.strings */,
-			);
-			path = vi.lproj;
-			sourceTree = "<group>";
-		};
-		775B272082CCAA114B59F084 /* he.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				5E1740E440FCF7364AD3A0C3 /* NSDateTimeAgo.strings */,
-			);
-			path = he.lproj;
-			sourceTree = "<group>";
-		};
-		80AB91237CB6EE53BAFDA78C /* da.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				5847FFE528C03F97002B0A91 /* NSDateTimeAgo.strings */,
+				94759BF84AAF4D5B79395404 /* NSDateTimeAgo.strings */,
 			);
 			path = da.lproj;
 			sourceTree = "<group>";
 		};
-		822FDC93359134DA6FE33DDD /* zh-Hant.lproj */ = {
+		C4372B5C4A72508AEF364721 /* ja.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				C1E9F8B504752F750958AAB9 /* NSDateTimeAgo.strings */,
+				32F3CF785BC3301F184B9E6A /* NSDateTimeAgo.strings */,
 			);
-			path = "zh-Hant.lproj";
+			path = ja.lproj;
 			sourceTree = "<group>";
 		};
-		83B536F067FF726273D7A3DD /* fi.lproj */ = {
+		CBBF682D00BCFEA7ADC231AF /* gre.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1531977AC409877816596666 /* NSDateTimeAgo.strings */,
+				341E2FE7422274A43DC4DA82 /* NSDateTimeAgo.strings */,
 			);
-			path = fi.lproj;
+			path = gre.lproj;
 			sourceTree = "<group>";
 		};
-		83D33212AECC0564910273F0 /* ro.lproj */ = {
+		CF7A68C0F0AF8CB6380ACD15 /* tr.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				381C572BC14DE39FD1B79362 /* NSDateTimeAgo.strings */,
-			);
-			path = ro.lproj;
-			sourceTree = "<group>";
-		};
-		8715C8C24183F03AA94BB45C /* pt-PT.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				00C9BBF2F88AD9C54A90824A /* NSDateTimeAgo.strings */,
-			);
-			path = "pt-PT.lproj";
-			sourceTree = "<group>";
-		};
-		8A6384B8FCAAE644B74C7E21 /* hu.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				780DD8CBB426B3AD07E4BB92 /* NSDateTimeAgo.strings */,
-			);
-			path = hu.lproj;
-			sourceTree = "<group>";
-		};
-		8F245C60108C02F8561464DF /* pt.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				C01E7438BE44B975F89EEFBB /* NSDateTimeAgo.strings */,
-			);
-			path = pt.lproj;
-			sourceTree = "<group>";
-		};
-		91B9FF6D055ED7DE213CAC0C /* cs.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				50180CA2AC4ABAAA8C26FB12 /* NSDateTimeAgo.strings */,
-			);
-			path = cs.lproj;
-			sourceTree = "<group>";
-		};
-		94A7946489FEA733A4F7832E /* NSDateTimeAgo.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				DCDFE09F22BAA6A2F7FAE6E3 /* ar.lproj */,
-				56C7D3EACA2148BCBB1B1952 /* bg.lproj */,
-				91B9FF6D055ED7DE213CAC0C /* cs.lproj */,
-				80AB91237CB6EE53BAFDA78C /* da.lproj */,
-				478ABE6402774986B0488700 /* de.lproj */,
-				4763F5F9EC0990E79ADB90CC /* en.lproj */,
-				46E8CE50702F84B8026F39B2 /* es.lproj */,
-				83B536F067FF726273D7A3DD /* fi.lproj */,
-				B76A68366B9A284A1DDFDB80 /* fr.lproj */,
-				181B7C4A202A145491FCEDFC /* gre.lproj */,
-				775B272082CCAA114B59F084 /* he.lproj */,
-				8A6384B8FCAAE644B74C7E21 /* hu.lproj */,
-				0F6E8EF9FCCB2053429696E7 /* is.lproj */,
-				4F562B0EB6CF33E49E33919F /* it.lproj */,
-				35A03FE95E3DDCCFACE0A13E /* ja.lproj */,
-				B21E6B4560C2D85EDE59FC50 /* ko.lproj */,
-				B24580A428828A3EE39C1953 /* lv.lproj */,
-				53DA816BEEFE798F0B5C8E45 /* nb.lproj */,
-				E8681452B9D93D63EFE315DD /* nl.lproj */,
-				132659CD09CA34E383D8658E /* pl.lproj */,
-				8F245C60108C02F8561464DF /* pt.lproj */,
-				8715C8C24183F03AA94BB45C /* pt-PT.lproj */,
-				83D33212AECC0564910273F0 /* ro.lproj */,
-				10C85DAE6A824BB4AB70EDC2 /* ru.lproj */,
-				AC2BBEA54F9EB1EA1C48B917 /* sk.lproj */,
-				24B585C090A5D5993AF4612B /* sq.lproj */,
-				BEC69CFEE67581315D3C7D97 /* sv.lproj */,
-				F11E5417D4CAD31536795556 /* th.lproj */,
-				E76400ED004000849C6693C2 /* tr.lproj */,
-				45C4D02C3F187788153E6C0D /* uk.lproj */,
-				74E73AAF7F296C298FA1865B /* vi.lproj */,
-				0313C6D932C54866E673D015 /* zh-Hans.lproj */,
-				822FDC93359134DA6FE33DDD /* zh-Hant.lproj */,
-			);
-			path = NSDateTimeAgo.bundle;
-			sourceTree = "<group>";
-		};
-		9702E84672405654DCDF72AF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C07B300B4A307E65782C569E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9B580698EE8B9E972782762A /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				49A4CB05F39F6EE09CE621CB /* NSDate+TimeAgo.swift */,
-				94A7946489FEA733A4F7832E /* NSDateTimeAgo.bundle */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		AC2BBEA54F9EB1EA1C48B917 /* sk.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				4DB664CFD0793C6337673D7E /* NSDateTimeAgo.strings */,
-			);
-			path = sk.lproj;
-			sourceTree = "<group>";
-		};
-		B21E6B4560C2D85EDE59FC50 /* ko.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				D7A7C425044C0A7314961031 /* NSDateTimeAgo.strings */,
-			);
-			path = ko.lproj;
-			sourceTree = "<group>";
-		};
-		B24580A428828A3EE39C1953 /* lv.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				CCCC3EA520D3A7FCCBB42E28 /* NSDateTimeAgo.strings */,
-			);
-			path = lv.lproj;
-			sourceTree = "<group>";
-		};
-		B76A68366B9A284A1DDFDB80 /* fr.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				ED82BB1FBDEA92CF97F42D0F /* NSDateTimeAgo.strings */,
-			);
-			path = fr.lproj;
-			sourceTree = "<group>";
-		};
-		BEC69CFEE67581315D3C7D97 /* sv.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				C4C21C944E46801BA3D63669 /* NSDateTimeAgo.strings */,
-			);
-			path = sv.lproj;
-			sourceTree = "<group>";
-		};
-		C07B300B4A307E65782C569E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C56426AFF4D911140FAFB46E /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D28EE591A082991652A30984 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1359DDB084BE1E13F0D1E09 /* Pods.framework */,
-				E68AFB2126B1D31BEADED727 /* TimeAgo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DBCE551110EEB5BE188B1DB3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				078A5D348024903A6859959B /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DCDFE09F22BAA6A2F7FAE6E3 /* ar.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				E7671AE3BD19BEE916552A89 /* NSDateTimeAgo.strings */,
-			);
-			path = ar.lproj;
-			sourceTree = "<group>";
-		};
-		E76400ED004000849C6693C2 /* tr.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				F18C719EC9C3807F0B2611CB /* NSDateTimeAgo.strings */,
+				97BD9176FDEB98F69150D66C /* NSDateTimeAgo.strings */,
 			);
 			path = tr.lproj;
 			sourceTree = "<group>";
 		};
-		E8681452B9D93D63EFE315DD /* nl.lproj */ = {
+		D38D2B0A5767CE28BF071801 /* NSDateTimeAgo.bundle */ = {
 			isa = PBXGroup;
 			children = (
-				0172E8D29D0D595D4A5FB8E7 /* NSDateTimeAgo.strings */,
+				8EBAC577DD3DC8EC28C5F38C /* ar.lproj */,
+				5884A7A1B1057AD3AD7E57A4 /* bg.lproj */,
+				CBF10955F3A0F697428AECC4 /* cs.lproj */,
+				743CEE4D5AE8D2AF3A99AA00 /* da.lproj */,
+				0295E3A82E24DB31C35D56CD /* de.lproj */,
+				F236B552ABFD45BC4FF92951 /* en.lproj */,
+				53D4761244877AF15DBF1645 /* es.lproj */,
+				EAC7799A3D873A7DED07B22D /* fi.lproj */,
+				55DB3A908FE1C45CEF51FDB3 /* fr.lproj */,
+				67E534E89E0BB69CEB1FAC26 /* gre.lproj */,
+				3FE1A9C804C95AA0FF480A62 /* he.lproj */,
+				8D6EB18D204A710CA8EB992A /* hu.lproj */,
+				EF91C238AD26D427AABA74EC /* is.lproj */,
+				4B66C3341094BADE1695FC6D /* it.lproj */,
+				7AFC32E7A199D8B9F66D4AA9 /* ja.lproj */,
+				E80D4571A24801FF936EA566 /* ko.lproj */,
+				5E68C0F1A0688E5969A05BD0 /* lv.lproj */,
+				C04900655017FF5B71F56559 /* nb.lproj */,
+				F004C322EA89CE839166119F /* nl.lproj */,
+				66C7268DC5D205F4531A4933 /* pl.lproj */,
+				CD2FC26B77C46B143B6A5183 /* pt.lproj */,
+				CD6B3D8078322A14621338CB /* pt-PT.lproj */,
+				D02D8D534FCFA20A6C307810 /* ro.lproj */,
+				0ABE2AF80AC52B59365FE980 /* ru.lproj */,
+				1B1F9E3A140DA380D1940DCE /* sk.lproj */,
+				0923323AA072251B7ED81445 /* sq.lproj */,
+				859C318B6B7C30F394C3A677 /* sv.lproj */,
+				CBCDA8FB804F489D7A29CF74 /* th.lproj */,
+				CE1C71F5BDD2E889735F7076 /* tr.lproj */,
+				EA503D3CB41A8FC686D11F2B /* uk.lproj */,
+				730B5B6142160218EF8DBE41 /* vi.lproj */,
+				B59C5EDA1686FD77612ADC2B /* zh-Hans.lproj */,
+				DF325DFCED24F9D8E79A072B /* zh-Hant.lproj */,
+				716ED22D2AC9FC458F01F452 /* ar.lproj */,
+				BC7268DF2917586F00D01096 /* bg.lproj */,
+				F7BBE0879B3F8C2802138EF0 /* cs.lproj */,
+				C23D61D93376908E9F36A198 /* da.lproj */,
+				3CB9C86B076EE88794082E07 /* de.lproj */,
+				2A3D8A6330FDB883C742B88E /* en.lproj */,
+				565A39BE1E2777E5A45659E5 /* es.lproj */,
+				938ED25C50B19CA00533769D /* fi.lproj */,
+				3D73FFDDF180089D79865895 /* fr.lproj */,
+				CBBF682D00BCFEA7ADC231AF /* gre.lproj */,
+				9FF665CC8848CB1A4646F31C /* he.lproj */,
+				F731D11E5AFADA5C704D8158 /* hu.lproj */,
+				A71A63AAA6CE384D57F460EE /* is.lproj */,
+				F348284F819F971651CFF22C /* it.lproj */,
+				C4372B5C4A72508AEF364721 /* ja.lproj */,
+				F84D16537D375EF103D9CB0F /* ko.lproj */,
+				485ACCE9C3312AF980F91F81 /* lv.lproj */,
+				E6CE9DB6A6C44EE05C25BA84 /* nb.lproj */,
+				8847D7DACF30FB9295B225B9 /* nl.lproj */,
+				8D87A671152B1DFFBF88EA92 /* pl.lproj */,
+				D9C37F0231A6ACA5664C8278 /* pt.lproj */,
+				473EEF79C04DEF74F320717C /* pt-PT.lproj */,
+				B7D3D3294817D5CB2D68DD26 /* ro.lproj */,
+				B6CC23597EB8D12A17B15F8C /* ru.lproj */,
+				4684E67417614D4F09560293 /* sk.lproj */,
+				36EB92400CE43FBABE954AC2 /* sq.lproj */,
+				66D2045AC9B3D5DB69680EE4 /* sv.lproj */,
+				4928BBF769F51ED807E00D10 /* th.lproj */,
+				CF7A68C0F0AF8CB6380ACD15 /* tr.lproj */,
+				F14E4DBA552028AA3D650D75 /* uk.lproj */,
+				D679CF1D7A4F1729492871F9 /* vi.lproj */,
+				A617D3BF9FF148FF8BD2CD8C /* zh-Hans.lproj */,
+				44FDEDA0024C9189F2DFC650 /* zh-Hant.lproj */,
 			);
-			path = nl.lproj;
+			path = NSDateTimeAgo.bundle;
 			sourceTree = "<group>";
 		};
-		F11E5417D4CAD31536795556 /* th.lproj */ = {
+		D679CF1D7A4F1729492871F9 /* vi.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1ED5F5859540FB81CAB33FD8 /* NSDateTimeAgo.strings */,
+				BEBBB004DF24A1C2B475FE32 /* NSDateTimeAgo.strings */,
 			);
-			path = th.lproj;
+			path = vi.lproj;
+			sourceTree = "<group>";
+		};
+		D9C37F0231A6ACA5664C8278 /* pt.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F493D9547A224FDBB1CF9E75 /* NSDateTimeAgo.strings */,
+			);
+			path = pt.lproj;
+			sourceTree = "<group>";
+		};
+		DC1CAAE803ADCA60741D52D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA93FC39E9AF1CC5A34A1F64 /* Pods.framework */,
+				B07E17A73F1208F6BC51DB68 /* TimeAgo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CE9DB6A6C44EE05C25BA84 /* nb.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA3168396FDE191D410542 /* NSDateTimeAgo.strings */,
+			);
+			path = nb.lproj;
+			sourceTree = "<group>";
+		};
+		E746972C06E38C54A6229A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F10B20DE713EEEF246A97D2F /* Info.plist */,
+				01F1DA89A7824B80DD2602C6 /* Pods.modulemap */,
+				0FCAE57B75EC5423DA05CE16 /* Pods-acknowledgements.markdown */,
+				C3698A83545C3F93A1511A11 /* Pods-acknowledgements.plist */,
+				3166A639B459F3F2A316816A /* Pods-dummy.m */,
+				694A069197B05F5D43BE5FDB /* Pods-environment.h */,
+				E66D35768D3A06B49867ED96 /* Pods-frameworks.sh */,
+				55C5E72985F602271A379C1A /* Pods-resources.sh */,
+				84C90F5CFB44941E5AFAFB40 /* Pods-umbrella.h */,
+				9AE46032EDA8BFD7F4E2708B /* Pods.debug.xcconfig */,
+				2AB554D0E3653EFCA1FEFB68 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		F14E4DBA552028AA3D650D75 /* uk.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF14959A915CFEF172E360 /* NSDateTimeAgo.strings */,
+			);
+			path = uk.lproj;
+			sourceTree = "<group>";
+		};
+		F348284F819F971651CFF22C /* it.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E544DDB10BFC1718B7B25C81 /* NSDateTimeAgo.strings */,
+			);
+			path = it.lproj;
+			sourceTree = "<group>";
+		};
+		F731D11E5AFADA5C704D8158 /* hu.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EAC091A0A6DB3A653E6125ED /* NSDateTimeAgo.strings */,
+			);
+			path = hu.lproj;
+			sourceTree = "<group>";
+		};
+		F78438EFF6C51E8E3998F169 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E746972C06E38C54A6229A40 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7BBE0879B3F8C2802138EF0 /* cs.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				FE18FCB5D82A930F6D6EFA2E /* NSDateTimeAgo.strings */,
+			);
+			path = cs.lproj;
+			sourceTree = "<group>";
+		};
+		F84D16537D375EF103D9CB0F /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9C5975A80907281E14152427 /* NSDateTimeAgo.strings */,
+			);
+			path = ko.lproj;
+			sourceTree = "<group>";
+		};
+		FF6D58782AE354720ED42C3A = {
+			isa = PBXGroup;
+			children = (
+				F9A2B11329AFD868B8873089 /* Podfile */,
+				BF8E5F2748C4799A926713F4 /* Development Pods */,
+				93862CFC3C58803D6AFE338C /* Frameworks */,
+				DC1CAAE803ADCA60741D52D2 /* Products */,
+				F78438EFF6C51E8E3998F169 /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8ED698481090E9D99D518295 /* Headers */ = {
+		8B535FB304EA07AFB80A92C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4AA2685671380404060BF0 /* Pods-TimeAgo-umbrella.h in Headers */,
+				DF0A492C576AE64F3645D88B /* Pods-TimeAgo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0DA64D2C31DBDCDA5958A6 /* Headers */ = {
+		EA80989643554058FB094867 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D829D51746372819F95BF28 /* Pods-umbrella.h in Headers */,
+				581845B83372D4040BC68A68 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DE9E1FFF18E0C1DC514FF24B /* Pods-TimeAgo */ = {
+		21EA4EAF5EC6D9F2D0CDB082 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8650F621364994191E3E15C8 /* Build configuration list for PBXNativeTarget "Pods-TimeAgo" */;
+			buildConfigurationList = 613766E4684659DEC08402E7 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				E66173F08D13CCFB60479A84 /* Sources */,
-				C06F0C4254C939825D2F48A3 /* Frameworks */,
-				8ED698481090E9D99D518295 /* Headers */,
+				12E0DE680C8BFF6B6B70FA69 /* Sources */,
+				1156AB95F81EAD1173E34097 /* Frameworks */,
+				EA80989643554058FB094867 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DF83C323CDCD01BF2A4D45 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = FA93FC39E9AF1CC5A34A1F64 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AD3B7AAC4E9425FBCF5FE73 /* Pods-TimeAgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E74603D9888EA993021565F /* Build configuration list for PBXNativeTarget "Pods-TimeAgo" */;
+			buildPhases = (
+				464B07D4AAD5FD682BD966A5 /* Sources */,
+				FDB6400F4054729824AF5D52 /* Frameworks */,
+				BD8B1B64B2018739010034F8 /* Resources */,
+				8B535FB304EA07AFB80A92C8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -583,146 +720,145 @@
 			);
 			name = "Pods-TimeAgo";
 			productName = "Pods-TimeAgo";
-			productReference = E68AFB2126B1D31BEADED727 /* TimeAgo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F370343004B6B878A3EC7E20 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0C01C91C1D9D2EAAE125178 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				A9CE57B88B56134E18DD8F22 /* Sources */,
-				65727D12C327261B4A424E38 /* Frameworks */,
-				9B0DA64D2C31DBDCDA5958A6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				85CB6A8335258DE83C2A3A27 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = E1359DDB084BE1E13F0D1E09 /* Pods.framework */;
+			productReference = B07E17A73F1208F6BC51DB68 /* TimeAgo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A23DEBDD6EFB27B1CB0CE686 /* Project object */ = {
+		3A8544D5DC07FEF36C764B18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = BA13279C5E7FCA49F920558E /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 84EB992434ACEAD7AF99C601 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1BD9BA220EDB9CDB7D874551;
-			productRefGroup = D28EE591A082991652A30984 /* Products */;
+			mainGroup = FF6D58782AE354720ED42C3A;
+			productRefGroup = DC1CAAE803ADCA60741D52D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F370343004B6B878A3EC7E20 /* Pods */,
-				DE9E1FFF18E0C1DC514FF24B /* Pods-TimeAgo */,
+				21EA4EAF5EC6D9F2D0CDB082 /* Pods */,
+				3AD3B7AAC4E9425FBCF5FE73 /* Pods-TimeAgo */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		A9CE57B88B56134E18DD8F22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		BD8B1B64B2018739010034F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B83FF34D8AA5E841F73CDB /* Pods-dummy.m in Sources */,
+				BD398E2BEB46670655265C11 /* NSDateTimeAgo.bundle in Resources */,
+				CCDB85E94DA6B07C1A30E5CE /* NSDateTimeAgo.strings in Resources */,
+				85FEE9DB7D5A837665473FD2 /* NSDateTimeAgo.strings in Resources */,
+				52A0E9BD41FBD19AE65AC76E /* NSDateTimeAgo.strings in Resources */,
+				51E32BEC8ACE0A9C4B527E31 /* NSDateTimeAgo.strings in Resources */,
+				69D0FCC034EA4999A159605D /* NSDateTimeAgo.strings in Resources */,
+				2A476BF225211806205F7196 /* NSDateTimeAgo.strings in Resources */,
+				B1EFF4CAD04610B465F63926 /* NSDateTimeAgo.strings in Resources */,
+				5DAB54663C1A9FDF4E675232 /* NSDateTimeAgo.strings in Resources */,
+				56FFF0F54EF4B75F0B2A01A2 /* NSDateTimeAgo.strings in Resources */,
+				A7315AE4592079BA90AF4BA9 /* NSDateTimeAgo.strings in Resources */,
+				F74A72E618BAEC969492BD22 /* NSDateTimeAgo.strings in Resources */,
+				50B8EAF3F7B3809F56129570 /* NSDateTimeAgo.strings in Resources */,
+				2586F2ABBEC74ED1CCDEC01D /* NSDateTimeAgo.strings in Resources */,
+				6287C8392A9DA35DDC521E66 /* NSDateTimeAgo.strings in Resources */,
+				AB700FBA47848DB7AD967BD8 /* NSDateTimeAgo.strings in Resources */,
+				2694DFDCF4C35F4309C0F1A8 /* NSDateTimeAgo.strings in Resources */,
+				F828A7496EE32726C8A64C02 /* NSDateTimeAgo.strings in Resources */,
+				94D4BDE11604F4A0764C916A /* NSDateTimeAgo.strings in Resources */,
+				BB9C347912BF3EB549799D99 /* NSDateTimeAgo.strings in Resources */,
+				3BBAB8F7AB53CAAD57282D91 /* NSDateTimeAgo.strings in Resources */,
+				51D30267ADF54556134DC0CC /* NSDateTimeAgo.strings in Resources */,
+				B22B3B7DFAD58A5065FF8D30 /* NSDateTimeAgo.strings in Resources */,
+				12A657FE715E70C770FB61D9 /* NSDateTimeAgo.strings in Resources */,
+				0EE8FD14A940F206C0A86BC6 /* NSDateTimeAgo.strings in Resources */,
+				19B8A7E22C4C3F7CEE016263 /* NSDateTimeAgo.strings in Resources */,
+				3651EE7E3A1EEE5B32A996FB /* NSDateTimeAgo.strings in Resources */,
+				C7E6516ECE048304A07081E0 /* NSDateTimeAgo.strings in Resources */,
+				B0B0CC2CF1DCAB488072AB2D /* NSDateTimeAgo.strings in Resources */,
+				D9A13E1A90473A71DFD8010F /* NSDateTimeAgo.strings in Resources */,
+				B19AC467A03840EA301B2D54 /* NSDateTimeAgo.strings in Resources */,
+				AB2772CF1DE3195986BE0DED /* NSDateTimeAgo.strings in Resources */,
+				7976240B016333E6E85C67A9 /* NSDateTimeAgo.strings in Resources */,
+				68AD2D6F27A3B24E25D2ECD4 /* NSDateTimeAgo.strings in Resources */,
+				AD632840DC7841FEE52D033F /* ar.lproj in Resources */,
+				74B50B1343CBE205624E76A5 /* bg.lproj in Resources */,
+				37CB1E96CEFCBBBF05531BEA /* cs.lproj in Resources */,
+				C4E449FC1822C41AA90CC52E /* da.lproj in Resources */,
+				649EF6BFD2A3027076BDEF47 /* de.lproj in Resources */,
+				49750698BDFEA280F369E255 /* en.lproj in Resources */,
+				A78D54129B8AA1299F3737DD /* es.lproj in Resources */,
+				FE706D39A13C1A790ED3F440 /* fi.lproj in Resources */,
+				B518A38681296EF1F0A24E44 /* fr.lproj in Resources */,
+				E213947C80A745137A8A62F2 /* gre.lproj in Resources */,
+				69B20985DEEBC0D470A011F2 /* he.lproj in Resources */,
+				AC872F69E12F5BEC77356BAF /* hu.lproj in Resources */,
+				3079D96C64B26F15C8B71B00 /* is.lproj in Resources */,
+				32DE2008B0D19A2A1003A0C4 /* it.lproj in Resources */,
+				87417F061F8C6C9139B0A5A2 /* ja.lproj in Resources */,
+				E5B2DE122618A760AD1BA362 /* ko.lproj in Resources */,
+				F96C9475078C2D51B0AC653A /* lv.lproj in Resources */,
+				73BABA55016737F3ABF4519A /* nb.lproj in Resources */,
+				F71F0DCC30D6B04DFBBABD0A /* nl.lproj in Resources */,
+				7F9BCEB708D2D25F93176968 /* pl.lproj in Resources */,
+				C8D6FF6396D4E9B7ECF5A1FA /* pt-PT.lproj in Resources */,
+				31AC50A3595CAB96EF85D4CA /* pt.lproj in Resources */,
+				1574F9E9FC816A234D70BC9B /* ro.lproj in Resources */,
+				C31D70100502796A27D4E238 /* ru.lproj in Resources */,
+				82B4931264C559CDA183E1D6 /* sk.lproj in Resources */,
+				6A8AEC1376BA2439586EDECC /* sq.lproj in Resources */,
+				BFE25DC9126AD8677AD6A79C /* sv.lproj in Resources */,
+				5F2A8446A65CBE70B01068D9 /* th.lproj in Resources */,
+				E7CA7F120D2F325DF518E30D /* tr.lproj in Resources */,
+				658981CE21D7B4B56224E8A8 /* uk.lproj in Resources */,
+				6D64E69F6E7A90D315E5E92A /* vi.lproj in Resources */,
+				BC55175646DCDD35B08C32C2 /* zh-Hans.lproj in Resources */,
+				2CDF37D42ECF6862997310A6 /* zh-Hant.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E66173F08D13CCFB60479A84 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E0DE680C8BFF6B6B70FA69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4E67671DFBFBD06CF9EC1E /* NSDate+TimeAgo.swift in Sources */,
-				A91073F1493D8A0DA517EAF1 /* NSDateTimeAgo.strings in Sources */,
-				239120740F9AAD87BE187EA2 /* NSDateTimeAgo.strings in Sources */,
-				5F57720D71902AA8CD3FED82 /* NSDateTimeAgo.strings in Sources */,
-				63DB86BD0954C6F3227700A4 /* NSDateTimeAgo.strings in Sources */,
-				404E49E2ED108FCF08112847 /* NSDateTimeAgo.strings in Sources */,
-				14FBDF7AA21246CD7E2DDE9D /* NSDateTimeAgo.strings in Sources */,
-				D3ADE60A0777BDBE66493A2C /* NSDateTimeAgo.strings in Sources */,
-				3EB573845D7114D5AB313E76 /* NSDateTimeAgo.strings in Sources */,
-				80789E430B1A151BE29D127B /* NSDateTimeAgo.strings in Sources */,
-				6C7957DC42669AF4E29FF73F /* NSDateTimeAgo.strings in Sources */,
-				D28402B85F28A61FB58BB22E /* NSDateTimeAgo.strings in Sources */,
-				C0AFCAF7DB3F43DBD07F8BA2 /* NSDateTimeAgo.strings in Sources */,
-				9191617FE85C480162B1AA51 /* NSDateTimeAgo.strings in Sources */,
-				91C27637E6936EF49178CF78 /* NSDateTimeAgo.strings in Sources */,
-				1AA99E652AEDCBA68FB4D6C8 /* NSDateTimeAgo.strings in Sources */,
-				D74182B1D8E76CB506D9D476 /* NSDateTimeAgo.strings in Sources */,
-				53A721494A13A82A083A217E /* NSDateTimeAgo.strings in Sources */,
-				3DC5048F3912E691AFEC9412 /* NSDateTimeAgo.strings in Sources */,
-				648E13177BD9A9299D2A62B3 /* NSDateTimeAgo.strings in Sources */,
-				64F4BFCCE761ADF43A7D1840 /* NSDateTimeAgo.strings in Sources */,
-				B8D46ECE97A4FDA3D10F605F /* NSDateTimeAgo.strings in Sources */,
-				C613E87135D5D3421C403E6A /* NSDateTimeAgo.strings in Sources */,
-				DF60D36F3FE1D4A1B8C03865 /* NSDateTimeAgo.strings in Sources */,
-				5A2D8BCD6646CFE15E0791A4 /* NSDateTimeAgo.strings in Sources */,
-				F3E6952FBC3C24281E133320 /* NSDateTimeAgo.strings in Sources */,
-				71F9A5B3CD2CEF63EE34303F /* NSDateTimeAgo.strings in Sources */,
-				618E7ADE3B54D0F8366791C1 /* NSDateTimeAgo.strings in Sources */,
-				680B38E5EE5682D15D28AAF9 /* NSDateTimeAgo.strings in Sources */,
-				9CEF081B866A22E60C99EDAD /* NSDateTimeAgo.strings in Sources */,
-				198F95540E176C463649043A /* NSDateTimeAgo.strings in Sources */,
-				8A96D79CC22B8DF95E995215 /* NSDateTimeAgo.strings in Sources */,
-				B888863ACDDED325E445FAFA /* NSDateTimeAgo.strings in Sources */,
-				9CF0F557B66512FFAA3BCABD /* NSDateTimeAgo.strings in Sources */,
-				49B388D84B7D7EAE392E08C5 /* Pods-TimeAgo-dummy.m in Sources */,
+				DC36426CDE0D3A42B12CBA16 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B07D4AAD5FD682BD966A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1475CDB182894EA44A45B01 /* NSDate+TimeAgo.swift in Sources */,
+				4B8BB5420B1A55E152DE7055 /* Pods-TimeAgo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85CB6A8335258DE83C2A3A27 /* PBXTargetDependency */ = {
+		22DF83C323CDCD01BF2A4D45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TimeAgo";
-			target = DE9E1FFF18E0C1DC514FF24B /* Pods-TimeAgo */;
-			targetProxy = 1D3D5A82D1C7A20BAF5C9A38 /* PBXContainerItemProxy */;
+			target = 3AD3B7AAC4E9425FBCF5FE73 /* Pods-TimeAgo */;
+			targetProxy = 71AE723FD4AE234C10683F19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09B64F35AB58071697BBA357 /* Release */ = {
+		1258E2BDE9D8E51A5D1B0C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E6427A2A2ED930DC676C8F /* Pods-TimeAgo-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeAgo/Pods-TimeAgo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimeAgo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimeAgo/Pods-TimeAgo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TimeAgo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		136FEB40B5FEA8B51B2EBE16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DFE0EA611AB3E0E4C2384C5 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9AE46032EDA8BFD7F4E2708B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -750,43 +886,9 @@
 			};
 			name = Debug;
 		};
-		7890FCBE1CA86E0805FF4505 /* Release */ = {
+		42B0CF14C22FF8449BEACDEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A9F752B19142A0E2A420E32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA39C9AAA72D7B9C4C3521B1 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2AB554D0E3653EFCA1FEFB68 /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -813,9 +915,36 @@
 			};
 			name = Release;
 		};
-		AAB4B9210832DEFD332E90E5 /* Debug */ = {
+		53CB95CE4EADB5D3B6189F1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E6427A2A2ED930DC676C8F /* Pods-TimeAgo-Private.xcconfig */;
+			baseConfigurationReference = A5A7F2608EE8099FD773F0DA /* Pods-TimeAgo-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeAgo/Pods-TimeAgo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeAgo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeAgo/Pods-TimeAgo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6031E5FBF39AB459DEECC890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A7F2608EE8099FD773F0DA /* Pods-TimeAgo-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -841,7 +970,7 @@
 			};
 			name = Debug;
 		};
-		C0D3EC902448041F8B3FB731 /* Debug */ = {
+		6CF35D2519057BF2204FA67C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -880,37 +1009,71 @@
 			};
 			name = Debug;
 		};
+		FC3E6858ABF8239AF3A478B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8650F621364994191E3E15C8 /* Build configuration list for PBXNativeTarget "Pods-TimeAgo" */ = {
+		613766E4684659DEC08402E7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB4B9210832DEFD332E90E5 /* Debug */,
-				09B64F35AB58071697BBA357 /* Release */,
+				1258E2BDE9D8E51A5D1B0C92 /* Debug */,
+				42B0CF14C22FF8449BEACDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0C01C91C1D9D2EAAE125178 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		84EB992434ACEAD7AF99C601 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				136FEB40B5FEA8B51B2EBE16 /* Debug */,
-				7A9F752B19142A0E2A420E32 /* Release */,
+				6CF35D2519057BF2204FA67C /* Debug */,
+				FC3E6858ABF8239AF3A478B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA13279C5E7FCA49F920558E /* Build configuration list for PBXProject "Pods" */ = {
+		8E74603D9888EA993021565F /* Build configuration list for PBXNativeTarget "Pods-TimeAgo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0D3EC902448041F8B3FB731 /* Debug */,
-				7890FCBE1CA86E0805FF4505 /* Release */,
+				6031E5FBF39AB459DEECC890 /* Debug */,
+				53CB95CE4EADB5D3B6189F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A23DEBDD6EFB27B1CB0CE686 /* Project object */;
+	rootObject = 3A8544D5DC07FEF36C764B18 /* Project object */;
 }

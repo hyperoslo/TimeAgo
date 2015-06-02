@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE9E1FFF18E0C1DC514FF24B"
+               BlueprintIdentifier = "3AD3B7AAC4E9425FBCF5FE73"
                BuildableName = "TimeAgo.framework"
                BlueprintName = "Pods-TimeAgo"
                ReferencedContainer = "container:Pods.xcodeproj">

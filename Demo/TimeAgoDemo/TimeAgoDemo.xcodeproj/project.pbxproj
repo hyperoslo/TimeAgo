@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		254CC1E40B0040CA4207E5E4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7D39006B285AF95B51413 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		84F255A11B1DC87E00725BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255A01B1DC87E00725BBA /* AppDelegate.swift */; };
-		84F255A31B1DC87E00725BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255A21B1DC87E00725BBA /* ViewController.swift */; };
 		84F255A61B1DC87E00725BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A41B1DC87E00725BBA /* Main.storyboard */; };
 		84F255A81B1DC87E00725BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A71B1DC87E00725BBA /* Images.xcassets */; };
 		84F255AB1B1DC87E00725BBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A91B1DC87E00725BBA /* LaunchScreen.xib */; };
 		84F255B71B1DC87E00725BBA /* TimeAgoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255B61B1DC87E00725BBA /* TimeAgoDemoTests.swift */; };
+		84F255C11B1DCCD900725BBA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255C01B1DCCD900725BBA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,13 @@
 		84F2559B1B1DC87E00725BBA /* TimeAgoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAgoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2559F1B1DC87E00725BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F255A01B1DC87E00725BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F255A21B1DC87E00725BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84F255A51B1DC87E00725BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F255A71B1DC87E00725BBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84F255AA1B1DC87E00725BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84F255B01B1DC87E00725BBA /* TimeAgoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAgoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F255B51B1DC87E00725BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F255B61B1DC87E00725BBA /* TimeAgoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgoDemoTests.swift; sourceTree = "<group>"; };
+		84F255C01B1DCCD900725BBA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				84F255A01B1DC87E00725BBA /* AppDelegate.swift */,
-				84F255A21B1DC87E00725BBA /* ViewController.swift */,
+				84F255C01B1DCCD900725BBA /* TableViewController.swift */,
 				84F255A41B1DC87E00725BBA /* Main.storyboard */,
 				84F255A71B1DC87E00725BBA /* Images.xcassets */,
 				84F255A91B1DC87E00725BBA /* LaunchScreen.xib */,
@@ -287,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F255A31B1DC87E00725BBA /* ViewController.swift in Sources */,
 				84F255A11B1DC87E00725BBA /* AppDelegate.swift in Sources */,
+				84F255C11B1DCCD900725BBA /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

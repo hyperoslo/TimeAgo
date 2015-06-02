@@ -7,20 +7,12 @@ let kMonth = kDay * 31
 let kYear = kDay * 365
 
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
-    
-    let resourcePath = NSBundle.mainBundle().resourcePath
-    let path = resourcePath?.stringByAppendingPathComponent("NSDateTimeAgo.bundle")
-    let bundle = NSBundle(path: path!)
-
-    
-    
-    //let bundle = NSBundle.
-    
-    
+    let bundlePath = NSBundle.mainBundle().bundlePath + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
+    let bundle = NSBundle(path: bundlePath)
     return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
 }
 
-extension NSDate {
+public extension NSDate {
     
     // shows 1 or two letter abbreviation for units.
     // does not include 'ago' text ... just {value}{unit-abbreviation}
