@@ -15,7 +15,7 @@ class AgoViewController: UIViewController {
     super.viewDidLoad()
     dateLabel.text = "Just now"
     timePicker.maximumDate = NSDate()
-    datePicker.maximumDate = NSDate();
+    datePicker.maximumDate = NSDate()
   }
   
   func calculateTimeAgoString() {
