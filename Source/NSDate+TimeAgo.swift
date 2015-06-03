@@ -12,13 +12,19 @@ func NSDateTimeAgoLocalizedStrings(key: String) -> String {
     return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
 }
 
+func isPastDate (date: NSDate) {
+  if (date.compare(NSDate()) == NSComparisonResult.OrderedDescending) {
+NSException(name: "NSDate+TimeAgo FutureDateException", reason: "Date the function is being called on has to be in the past or now, but not in the future.", userInfo: nil).raise()
+  }
+}
+
 public extension NSDate {
     
     // shows 1 or two letter abbreviation for units.
     // does not include 'ago' text ... just {value}{unit-abbreviation}
     // does not include interim summary options such as 'Just now'
     var timeAgoSimple: String {
-        
+        isPastDate(self)
         let now = NSDate()
         let deltaSeconds = Int(fabs(timeIntervalSinceDate(now)))
         let deltaMinutes = deltaSeconds / 60
@@ -55,7 +61,7 @@ public extension NSDate {
     }
     
     var timeAgo: String {
-        
+        isPastDate(self)
         let now = NSDate()
         let deltaSeconds = Int(fabs(timeIntervalSinceDate(now)))
         let deltaMinutes = deltaSeconds / 60
