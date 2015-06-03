@@ -102,7 +102,7 @@ public extension NSDate {
             // Month Ago
             value = Int(floor(Float(deltaMinutes / kMonth)))
             return stringFromFormat("%%d %@months ago", withValue: value)
-        } else if deltaMinutes < (kDay * (kYear * 2)) {
+        } else if deltaMinutes < (kYear * 2) {
             // Last Year
             return NSDateTimeAgoLocalizedStrings("Last Year")
         }
