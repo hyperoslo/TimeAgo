@@ -8,38 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		254CC1E40B0040CA4207E5E4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7D39006B285AF95B51413 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		79CA7FFF1B1EE23E00BDF3E7 /* AgoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA7FFE1B1EE23E00BDF3E7 /* AgoViewController.swift */; };
 		84F255A11B1DC87E00725BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255A01B1DC87E00725BBA /* AppDelegate.swift */; };
 		84F255A61B1DC87E00725BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A41B1DC87E00725BBA /* Main.storyboard */; };
 		84F255A81B1DC87E00725BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A71B1DC87E00725BBA /* Images.xcassets */; };
 		84F255AB1B1DC87E00725BBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F255A91B1DC87E00725BBA /* LaunchScreen.xib */; };
-		84F255B71B1DC87E00725BBA /* TimeAgoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255B61B1DC87E00725BBA /* TimeAgoDemoTests.swift */; };
-		84F255C11B1DCCD900725BBA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F255C01B1DCCD900725BBA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		84F255B11B1DC87E00725BBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84F255931B1DC87E00725BBA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84F2559A1B1DC87E00725BBA;
-			remoteInfo = TimeAgoDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C66791447EC5EA70C8511B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5C5168CCB8B11EACC2D587DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		65E7D39006B285AF95B51413 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CA7FFE1B1EE23E00BDF3E7 /* AgoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AgoViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		84F2559B1B1DC87E00725BBA /* TimeAgoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAgoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2559F1B1DC87E00725BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F255A01B1DC87E00725BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F255A01B1DC87E00725BBA /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		84F255A51B1DC87E00725BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F255A71B1DC87E00725BBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84F255AA1B1DC87E00725BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		84F255B01B1DC87E00725BBA /* TimeAgoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAgoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84F255B51B1DC87E00725BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F255B61B1DC87E00725BBA /* TimeAgoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgoDemoTests.swift; sourceTree = "<group>"; };
-		84F255C01B1DCCD900725BBA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,13 +34,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				254CC1E40B0040CA4207E5E4 /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84F255AD1B1DC87E00725BBA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				84F2559D1B1DC87E00725BBA /* TimeAgoDemo */,
-				84F255B31B1DC87E00725BBA /* TimeAgoDemoTests */,
 				84F2559C1B1DC87E00725BBA /* Products */,
 				A194184E9E7A197221BEA78E /* Pods */,
 				2E22481EF1091D09A44D9D90 /* Frameworks */,
@@ -84,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				84F2559B1B1DC87E00725BBA /* TimeAgoDemo.app */,
-				84F255B01B1DC87E00725BBA /* TimeAgoDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				84F255A01B1DC87E00725BBA /* AppDelegate.swift */,
-				84F255C01B1DCCD900725BBA /* TableViewController.swift */,
 				84F255A41B1DC87E00725BBA /* Main.storyboard */,
+				79CA7FFE1B1EE23E00BDF3E7 /* AgoViewController.swift */,
 				84F255A71B1DC87E00725BBA /* Images.xcassets */,
 				84F255A91B1DC87E00725BBA /* LaunchScreen.xib */,
 				84F2559E1B1DC87E00725BBA /* Supporting Files */,
@@ -106,23 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				84F2559F1B1DC87E00725BBA /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		84F255B31B1DC87E00725BBA /* TimeAgoDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				84F255B61B1DC87E00725BBA /* TimeAgoDemoTests.swift */,
-				84F255B41B1DC87E00725BBA /* Supporting Files */,
-			);
-			path = TimeAgoDemoTests;
-			sourceTree = "<group>";
-		};
-		84F255B41B1DC87E00725BBA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84F255B51B1DC87E00725BBA /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,24 +119,6 @@
 			productReference = 84F2559B1B1DC87E00725BBA /* TimeAgoDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84F255AF1B1DC87E00725BBA /* TimeAgoDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84F255BD1B1DC87E00725BBA /* Build configuration list for PBXNativeTarget "TimeAgoDemoTests" */;
-			buildPhases = (
-				84F255AC1B1DC87E00725BBA /* Sources */,
-				84F255AD1B1DC87E00725BBA /* Frameworks */,
-				84F255AE1B1DC87E00725BBA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84F255B21B1DC87E00725BBA /* PBXTargetDependency */,
-			);
-			name = TimeAgoDemoTests;
-			productName = TimeAgoDemoTests;
-			productReference = 84F255B01B1DC87E00725BBA /* TimeAgoDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,10 +130,6 @@
 				TargetAttributes = {
 					84F2559A1B1DC87E00725BBA = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					84F255AF1B1DC87E00725BBA = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 84F2559A1B1DC87E00725BBA;
 					};
 				};
 			};
@@ -209,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				84F2559A1B1DC87E00725BBA /* TimeAgoDemo */,
-				84F255AF1B1DC87E00725BBA /* TimeAgoDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,13 +159,6 @@
 				84F255A61B1DC87E00725BBA /* Main.storyboard in Resources */,
 				84F255AB1B1DC87E00725BBA /* LaunchScreen.xib in Resources */,
 				84F255A81B1DC87E00725BBA /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84F255AE1B1DC87E00725BBA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,28 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA7FFF1B1EE23E00BDF3E7 /* AgoViewController.swift in Sources */,
 				84F255A11B1DC87E00725BBA /* AppDelegate.swift in Sources */,
-				84F255C11B1DCCD900725BBA /* TableViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84F255AC1B1DC87E00725BBA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84F255B71B1DC87E00725BBA /* TimeAgoDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		84F255B21B1DC87E00725BBA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84F2559A1B1DC87E00725BBA /* TimeAgoDemo */;
-			targetProxy = 84F255B11B1DC87E00725BBA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84F255A41B1DC87E00725BBA /* Main.storyboard */ = {
@@ -435,40 +349,6 @@
 			};
 			name = Release;
 		};
-		84F255BE1B1DC87E00725BBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TimeAgoDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeAgoDemo.app/TimeAgoDemo";
-			};
-			name = Debug;
-		};
-		84F255BF1B1DC87E00725BBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TimeAgoDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeAgoDemo.app/TimeAgoDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,15 +366,6 @@
 			buildConfigurations = (
 				84F255BB1B1DC87E00725BBA /* Debug */,
 				84F255BC1B1DC87E00725BBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84F255BD1B1DC87E00725BBA /* Build configuration list for PBXNativeTarget "TimeAgoDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84F255BE1B1DC87E00725BBA /* Debug */,
-				84F255BF1B1DC87E00725BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

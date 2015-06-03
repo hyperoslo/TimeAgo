@@ -1,48 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SLE-AI-uAi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="J0G-OJ-3Rb">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
-        <scene sceneID="3Uu-51-n3n">
+        <!--Ago View Controller-->
+        <scene sceneID="jiz-en-fqF">
             <objects>
-                <tableViewController id="SLE-AI-uAi" customClass="TableViewController" customModule="TimeAgoDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="X76-4E-qNk">
+                <viewController id="J0G-OJ-3Rb" customClass="AgoViewController" customModule="TimeAgoDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="is3-Bd-qRi"/>
+                        <viewControllerLayoutGuide type="bottom" id="luc-hr-gYY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T1w-kn-WZX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" textLabel="6LA-YG-Mon" detailTextLabel="yb4-yU-ltv" style="IBUITableViewCellStyleValue2" id="TlA-Pg-CUR">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TlA-Pg-CUR" id="UNU-vw-uT2">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6LA-YG-Mon">
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yb4-yU-ltv">
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="SLE-AI-uAi" id="9z8-pg-P09"/>
-                            <outlet property="delegate" destination="SLE-AI-uAi" id="wuN-r9-PTz"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KON-bh-tTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OKi-t5-IXc">
+                                <rect key="frame" x="0.0" y="368" width="600" height="232"/>
+                                <date key="date" timeIntervalSinceReferenceDate="455007779.826989">
+                                    <!--2015-06-03 07:02:59 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerValueChanged" destination="J0G-OJ-3Rb" eventType="valueChanged" id="WLP-Ma-n55"/>
+                                </connections>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OUG-qF-T0i">
+                                <rect key="frame" x="0.0" y="203" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="455009217.70024699">
+                                    <!--2015-06-03 07:26:57 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerValueChanged" destination="J0G-OJ-3Rb" eventType="valueChanged" id="T4a-ov-Gnc"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cW-g4-6FU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="201"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leading" id="1NJ-C3-RRB"/>
+                            <constraint firstItem="luc-hr-gYY" firstAttribute="top" secondItem="OKi-t5-IXc" secondAttribute="bottom" id="A3M-Ys-BKr"/>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="top" secondItem="OUG-qF-T0i" secondAttribute="bottom" id="AcL-Ie-ia3"/>
+                            <constraint firstItem="4cW-g4-6FU" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leadingMargin" constant="-16" id="Lsh-zh-8m8"/>
+                            <constraint firstItem="4cW-g4-6FU" firstAttribute="top" secondItem="T1w-kn-WZX" secondAttribute="topMargin" id="Yle-bp-5PO"/>
+                            <constraint firstItem="OUG-qF-T0i" firstAttribute="top" secondItem="4cW-g4-6FU" secondAttribute="bottom" id="gzT-tB-Naf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4cW-g4-6FU" secondAttribute="trailing" constant="-16" id="nE9-aN-b4d"/>
+                            <constraint firstItem="OUG-qF-T0i" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leading" id="ok1-a0-fhw"/>
+                            <constraint firstAttribute="trailing" secondItem="OKi-t5-IXc" secondAttribute="trailing" id="q9e-qZ-ly1"/>
+                            <constraint firstAttribute="trailing" secondItem="OUG-qF-T0i" secondAttribute="trailing" id="qHN-iu-PUM"/>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="top" secondItem="OUG-qF-T0i" secondAttribute="bottom" id="tPl-YW-QGI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="4cW-g4-6FU" id="42E-bf-Zc7"/>
+                        <outlet property="datePicker" destination="OKi-t5-IXc" id="tni-Ri-aqV"/>
+                        <outlet property="timePicker" destination="OUG-qF-T0i" id="loN-Iv-2YZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pr0-st-EhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="475" y="469"/>
+            <point key="canvasLocation" x="1192" y="469"/>
         </scene>
     </scenes>
 </document>
