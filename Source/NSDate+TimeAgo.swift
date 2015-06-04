@@ -67,7 +67,7 @@ public extension NSDate {
         let deltaMinutes = deltaSeconds / 60
         
         var value: Int!
-        println(Int(floor(Float(deltaMinutes / kWeek))))
+
         if deltaSeconds < 5 {
             // Just Now
             return NSDateTimeAgoLocalizedStrings("Just now")

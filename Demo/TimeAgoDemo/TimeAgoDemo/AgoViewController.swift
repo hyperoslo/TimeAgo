@@ -7,7 +7,7 @@ class AgoViewController: UIViewController {
   @IBOutlet weak var timePicker: UIDatePicker!
   @IBOutlet weak var datePicker: UIDatePicker!
   
-  @IBAction func pickerValueChanged() {
+  @IBAction func pickerValueChanged(sender: UIDatePicker) {
     calculateTimeAgoString()
   }
   
