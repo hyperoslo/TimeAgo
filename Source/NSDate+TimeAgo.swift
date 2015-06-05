@@ -1,5 +1,6 @@
 import Foundation
 
+let kMinute = 60
 let kHour = 60
 let kDay = kHour * 24
 let kWeek = kDay * 7
@@ -63,59 +64,59 @@ public extension NSDate {
     var timeAgo: String {
         isDateInPast(self)
         let now = NSDate()
-        let deltaSeconds = Int(fabs(timeIntervalSinceDate(now)))
-        let deltaMinutes = deltaSeconds / 60
-        
+        let seconds = Int(fabs(timeIntervalSinceDate(now)))
+        let minutes = Int(round(Float(seconds) / 60.0))
+        let hours = Int(round(Float(minutes) / 60.0))
+        let days = Int(round(Float(hours) / 24.0))
+        let weeks = Int(round(Float(days) / 7.0))
+        let months = Int(round(Float(days) / 30.0))
+        let years = Int(round(Float(days) / 365))
+
         var value: Int!
 
-        if deltaSeconds < 5 {
+        if seconds < 5 {
             // Just Now
             return NSDateTimeAgoLocalizedStrings("Just now")
-        } else if deltaSeconds < kHour {
+        } else if seconds < 45 {
             // Seconds Ago
-            return stringFromFormat("%%d %@seconds ago", withValue: deltaSeconds)
-        } else if deltaSeconds < 120 {
+            return stringFromFormat("%%d %@seconds ago", withValue: seconds)
+        } else if seconds < 90 {
             // A Minute Ago
             return NSDateTimeAgoLocalizedStrings("A minute ago")
-        } else if deltaMinutes < kHour {
+        } else if minutes < 45 {
             // Minutes Ago
-            return stringFromFormat("%%d %@minutes ago", withValue: deltaMinutes)
-        } else if deltaMinutes < 120 {
+            return stringFromFormat("%%d %@minutes ago", withValue:minutes)
+        } else if minutes < 90 {
             // An Hour Ago
             return NSDateTimeAgoLocalizedStrings("An hour ago")
-        } else if deltaMinutes < kDay {
+        } else if hours < 24 {
             // Hours Ago
-            value = Int(floor(Float(deltaMinutes / kHour)))
-            return stringFromFormat("%%d %@hours ago", withValue: value)
-        } else if deltaMinutes < (kDay * 2) {
+            return stringFromFormat("%%d %@hours ago", withValue: hours)
+        } else if hours < 42 {
             // Yesterday
             return NSDateTimeAgoLocalizedStrings("Yesterday")
-        } else if deltaMinutes < kWeek {
+        } else if days < 5 {
             // Days Ago
-            value = Int(floor(Float(deltaMinutes / kDay)))
-            return stringFromFormat("%%d %@days ago", withValue: value)
-        } else if deltaMinutes < (kWeek * 2) {
+            return stringFromFormat("%%d %@days ago", withValue: days)
+        } else if days < 11 {
             // Last Week
             return NSDateTimeAgoLocalizedStrings("Last week")
-        } else if deltaMinutes < kMonth {
+        } else if days < 30 {
             // Weeks Ago
-            value = Int(floor(Float(deltaMinutes / kWeek)))
-            return stringFromFormat("%%d %@weeks ago", withValue: value)
-        } else if deltaMinutes < (kDay * 61) {
+            return stringFromFormat("%%d %@weeks ago", withValue: weeks)
+        } else if days < 45 {
             // Last month
             return NSDateTimeAgoLocalizedStrings("Last month")
-        } else if deltaMinutes < kYear {
+        } else if months < 12 {
             // Month Ago
-            value = Int(floor(Float(deltaMinutes / kMonth)))
-            return stringFromFormat("%%d %@months ago", withValue: value)
-        } else if deltaMinutes < (kYear * 2) {
+            return stringFromFormat("%%d %@months ago", withValue: months)
+        } else if Double(days) < (365 * 1.6) {
             // Last Year
             return NSDateTimeAgoLocalizedStrings("Last Year")
         }
         
         // Years Ago
-        value = Int(floor(Float(deltaMinutes / kYear)))
-        return stringFromFormat("%%d %@years ago", withValue: value)
+        return stringFromFormat("%%d %@years ago", withValue: years)
         
     }
     
