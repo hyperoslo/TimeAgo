@@ -1,7 +1,7 @@
 import Foundation
 
-let kMinute = 60
-let kDay = kMinute * 24
+let kHour = 60
+let kDay = kHour * 24
 let kWeek = kDay * 7
 let kMonth = kDay * 31
 let kYear = kDay * 365
@@ -31,15 +31,15 @@ public extension NSDate {
         
         var value: Int!
         
-        if deltaSeconds < kMinute {
+        if deltaSeconds < kHour {
             // Seconds
             return stringFromFormat("%%d%@s", withValue: deltaSeconds)
-        } else if deltaMinutes < kMinute {
+        } else if deltaMinutes < kHour {
             // Minutes
             return stringFromFormat("%%d%@m", withValue: deltaMinutes)
         } else if deltaMinutes < kDay {
             // Hours
-            value = Int(floor(Float(deltaMinutes / kMinute)))
+            value = Int(floor(Float(deltaMinutes / kHour)))
             return stringFromFormat("%%d%@h", withValue: value)
         } else if deltaMinutes < kWeek {
             // Days
@@ -71,13 +71,13 @@ public extension NSDate {
         if deltaSeconds < 5 {
             // Just Now
             return NSDateTimeAgoLocalizedStrings("Just now")
-        } else if deltaSeconds < kMinute {
+        } else if deltaSeconds < kHour {
             // Seconds Ago
             return stringFromFormat("%%d %@seconds ago", withValue: deltaSeconds)
         } else if deltaSeconds < 120 {
             // A Minute Ago
             return NSDateTimeAgoLocalizedStrings("A minute ago")
-        } else if deltaMinutes < kMinute {
+        } else if deltaMinutes < kHour {
             // Minutes Ago
             return stringFromFormat("%%d %@minutes ago", withValue: deltaMinutes)
         } else if deltaMinutes < 120 {
@@ -85,7 +85,7 @@ public extension NSDate {
             return NSDateTimeAgoLocalizedStrings("An hour ago")
         } else if deltaMinutes < kDay {
             // Hours Ago
-            value = Int(floor(Float(deltaMinutes / kMinute)))
+            value = Int(floor(Float(deltaMinutes / kHour)))
             return stringFromFormat("%%d %@hours ago", withValue: value)
         } else if deltaMinutes < (kDay * 2) {
             // Yesterday

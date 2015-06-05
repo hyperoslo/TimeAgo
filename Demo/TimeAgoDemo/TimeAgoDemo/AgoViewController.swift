@@ -41,13 +41,15 @@ class AgoViewController: UIViewController {
   
   func isToday (date: NSDate) -> Bool {
     let calendar = NSCalendar.currentCalendar()
-    let todayComponents = calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: NSDate())
-    let today = calendar.dateFromComponents(todayComponents)
+    let today = calendar.dateFromComponents(
+      calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: NSDate()))
     
-    if (date == today) {
+    let dateToCompare = calendar.dateFromComponents(
+    calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: date))
+
+    if (today == dateToCompare) {
       return true
     }
     return false
   }
-  
 }
