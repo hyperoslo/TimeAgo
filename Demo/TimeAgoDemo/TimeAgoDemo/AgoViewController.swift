@@ -8,6 +8,11 @@ class AgoViewController: UIViewController {
   @IBOutlet weak var datePicker: UIDatePicker!
   
   @IBAction func pickerValueChanged(sender: UIDatePicker) {
+    if (isToday(datePicker.date)) {
+      timePicker.maximumDate = NSDate()
+    } else {
+      timePicker.maximumDate = nil
+    }
     calculateTimeAgoString()
   }
   
@@ -31,7 +36,18 @@ class AgoViewController: UIViewController {
     combinedComponents.minute = timeComponents.minute
     combinedComponents.second = timeComponents.second
     
-    let fullDate = calendar.dateFromComponents(combinedComponents)
-    dateLabel.text = fullDate?.timeAgo
+    dateLabel.text = calendar.dateFromComponents(combinedComponents)?.timeAgo
   }
+  
+  func isToday (date: NSDate) -> Bool {
+    let calendar = NSCalendar.currentCalendar()
+    let todayComponents = calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: NSDate())
+    let today = calendar.dateFromComponents(todayComponents)
+    
+    if (date == today) {
+      return true
+    }
+    return false
+  }
+  
 }

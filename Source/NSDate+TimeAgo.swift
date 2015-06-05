@@ -14,7 +14,7 @@ func NSDateTimeAgoLocalizedStrings(key: String) -> String {
 
 func isDateInPast (date: NSDate) {
   if (date.compare(NSDate()) == NSComparisonResult.OrderedDescending) {
-NSException(name: "NSDate+TimeAgo FutureDateException", reason: "Date the function is being called on has to be in the past or now, but not in the future.", userInfo: nil).raise()
+NSException(name: "NSDate+TimeAgo DateInTheFutureException", reason: "Date the function is being called on has to be in the past or now, but not in the future.", userInfo: nil).raise()
   }
 }
 
