@@ -1,0 +1,21 @@
+{
+  "name": "TimeAgo",
+  "summary": "A helper for creating human-readable strings from NSDate",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hyperoslo/TimeAgo",
+  "license": "MIT",
+  "authors": {
+    "Hyper": "ios@hyper.no"
+  },
+  "source": {
+    "git": "https://github.com/hyperoslo/TimeAgo.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/hyperoslo",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Source/**/*",
+  "resources": "Resources/**/*"
+}

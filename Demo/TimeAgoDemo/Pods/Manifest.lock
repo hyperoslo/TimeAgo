@@ -1,0 +1,14 @@
+PODS:
+  - TimeAgo (0.1.0)
+
+DEPENDENCIES:
+  - TimeAgo (from `../../`)
+
+EXTERNAL SOURCES:
+  TimeAgo:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  TimeAgo: e82c5171b70a4ad868fc30bf13090e4fe036808d
+
+COCOAPODS: 0.37.2

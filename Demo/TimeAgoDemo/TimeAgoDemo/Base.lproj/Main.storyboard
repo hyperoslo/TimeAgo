@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="J0G-OJ-3Rb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ago View Controller-->
+        <scene sceneID="jiz-en-fqF">
+            <objects>
+                <viewController id="J0G-OJ-3Rb" customClass="AgoViewController" customModule="TimeAgoDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="is3-Bd-qRi"/>
+                        <viewControllerLayoutGuide type="bottom" id="luc-hr-gYY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T1w-kn-WZX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OKi-t5-IXc">
+                                <rect key="frame" x="0.0" y="368" width="600" height="232"/>
+                                <date key="date" timeIntervalSinceReferenceDate="455007779.826989">
+                                    <!--2015-06-03 07:02:59 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerValueChanged:" destination="J0G-OJ-3Rb" eventType="valueChanged" id="5sG-r1-6K4"/>
+                                </connections>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OUG-qF-T0i">
+                                <rect key="frame" x="0.0" y="203" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="455009217.70024699">
+                                    <!--2015-06-03 07:26:57 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerValueChanged:" destination="J0G-OJ-3Rb" eventType="valueChanged" id="ief-Ql-vzI"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cW-g4-6FU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="201"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leading" id="1NJ-C3-RRB"/>
+                            <constraint firstItem="luc-hr-gYY" firstAttribute="top" secondItem="OKi-t5-IXc" secondAttribute="bottom" id="A3M-Ys-BKr"/>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="top" secondItem="OUG-qF-T0i" secondAttribute="bottom" id="AcL-Ie-ia3"/>
+                            <constraint firstItem="4cW-g4-6FU" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leadingMargin" constant="-16" id="Lsh-zh-8m8"/>
+                            <constraint firstItem="4cW-g4-6FU" firstAttribute="top" secondItem="T1w-kn-WZX" secondAttribute="topMargin" id="Yle-bp-5PO"/>
+                            <constraint firstItem="OUG-qF-T0i" firstAttribute="top" secondItem="4cW-g4-6FU" secondAttribute="bottom" id="gzT-tB-Naf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4cW-g4-6FU" secondAttribute="trailing" constant="-16" id="nE9-aN-b4d"/>
+                            <constraint firstItem="OUG-qF-T0i" firstAttribute="leading" secondItem="T1w-kn-WZX" secondAttribute="leading" id="ok1-a0-fhw"/>
+                            <constraint firstAttribute="trailing" secondItem="OKi-t5-IXc" secondAttribute="trailing" id="q9e-qZ-ly1"/>
+                            <constraint firstAttribute="trailing" secondItem="OUG-qF-T0i" secondAttribute="trailing" id="qHN-iu-PUM"/>
+                            <constraint firstItem="OKi-t5-IXc" firstAttribute="top" secondItem="OUG-qF-T0i" secondAttribute="bottom" id="tPl-YW-QGI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="4cW-g4-6FU" id="42E-bf-Zc7"/>
+                        <outlet property="datePicker" destination="OKi-t5-IXc" id="tni-Ri-aqV"/>
+                        <outlet property="timePicker" destination="OUG-qF-T0i" id="loN-Iv-2YZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pr0-st-EhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863" y="536"/>
+        </scene>
+    </scenes>
+</document>
