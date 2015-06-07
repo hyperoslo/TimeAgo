@@ -1,12 +1,5 @@
 import Foundation
 
-let kMinute = 60
-let kHour = 60
-let kDay = kHour * 24
-let kWeek = kDay * 7
-let kMonth = kDay * 31
-let kYear = kDay * 365
-
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
     let bundlePath = NSBundle.mainBundle().bundlePath + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
     let bundle = NSBundle(path: bundlePath)
