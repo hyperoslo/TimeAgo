@@ -20,47 +20,6 @@ NSException(name: "NSDate+TimeAgo DateInTheFutureException", reason: "Date the f
 }
 
 public extension NSDate {
-    
-    // shows 1 or two letter abbreviation for units.
-    // does not include 'ago' text ... just {value}{unit-abbreviation}
-    // does not include interim summary options such as 'Just now'
-    var timeAgoSimple: String {
-        isDateInPast(self)
-        let now = NSDate()
-        let deltaSeconds = Int(fabs(timeIntervalSinceDate(now)))
-        let deltaMinutes = deltaSeconds / 60
-        
-        var value: Int!
-        
-        if deltaSeconds < kHour {
-            // Seconds
-            return stringFromFormat("%%d%@s", withValue: deltaSeconds)
-        } else if deltaMinutes < kHour {
-            // Minutes
-            return stringFromFormat("%%d%@m", withValue: deltaMinutes)
-        } else if deltaMinutes < kDay {
-            // Hours
-            value = Int(floor(Float(deltaMinutes / kHour)))
-            return stringFromFormat("%%d%@h", withValue: value)
-        } else if deltaMinutes < kWeek {
-            // Days
-            value = Int(floor(Float(deltaMinutes / kDay)))
-            return stringFromFormat("%%d%@d", withValue: value)
-        } else if deltaMinutes < kMonth {
-            // Weeks
-            value = Int(floor(Float(deltaMinutes / kWeek)))
-            return stringFromFormat("%%d%@w", withValue: value)
-        } else if deltaMinutes < kYear {
-            // Month
-            value = Int(floor(Float(deltaMinutes / kMonth)))
-            return stringFromFormat("%%d%@mo", withValue: value)
-        }
-        
-        // Years
-        value = Int(floor(Float(deltaMinutes / kYear)))
-        return stringFromFormat("%%d%@yr", withValue: value)
-    }
-    
     var timeAgo: String {
         isDateInPast(self)
         let now = NSDate()
