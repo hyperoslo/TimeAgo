@@ -1,12 +1,5 @@
 import Foundation
 
-let kMinute = 60
-let kHour = 60
-let kDay = kHour * 24
-let kWeek = kDay * 7
-let kMonth = kDay * 31
-let kYear = kDay * 365
-
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
     let bundlePath = NSBundle.mainBundle().bundlePath + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
     let bundle = NSBundle(path: bundlePath)
@@ -20,47 +13,6 @@ NSException(name: "NSDate+TimeAgo DateInTheFutureException", reason: "Date the f
 }
 
 public extension NSDate {
-    
-    // shows 1 or two letter abbreviation for units.
-    // does not include 'ago' text ... just {value}{unit-abbreviation}
-    // does not include interim summary options such as 'Just now'
-    var timeAgoSimple: String {
-        isDateInPast(self)
-        let now = NSDate()
-        let deltaSeconds = Int(fabs(timeIntervalSinceDate(now)))
-        let deltaMinutes = deltaSeconds / 60
-        
-        var value: Int!
-        
-        if deltaSeconds < kHour {
-            // Seconds
-            return stringFromFormat("%%d%@s", withValue: deltaSeconds)
-        } else if deltaMinutes < kHour {
-            // Minutes
-            return stringFromFormat("%%d%@m", withValue: deltaMinutes)
-        } else if deltaMinutes < kDay {
-            // Hours
-            value = Int(floor(Float(deltaMinutes / kHour)))
-            return stringFromFormat("%%d%@h", withValue: value)
-        } else if deltaMinutes < kWeek {
-            // Days
-            value = Int(floor(Float(deltaMinutes / kDay)))
-            return stringFromFormat("%%d%@d", withValue: value)
-        } else if deltaMinutes < kMonth {
-            // Weeks
-            value = Int(floor(Float(deltaMinutes / kWeek)))
-            return stringFromFormat("%%d%@w", withValue: value)
-        } else if deltaMinutes < kYear {
-            // Month
-            value = Int(floor(Float(deltaMinutes / kMonth)))
-            return stringFromFormat("%%d%@mo", withValue: value)
-        }
-        
-        // Years
-        value = Int(floor(Float(deltaMinutes / kYear)))
-        return stringFromFormat("%%d%@yr", withValue: value)
-    }
-    
     var timeAgo: String {
         isDateInPast(self)
         let now = NSDate()
