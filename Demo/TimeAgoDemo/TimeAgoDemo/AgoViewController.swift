@@ -8,7 +8,7 @@ class AgoViewController: UIViewController {
   @IBOutlet weak var datePicker: UIDatePicker!
   
   @IBAction func pickerValueChanged(sender: UIDatePicker) {
-    if (isToday(datePicker.date)) {
+    if isToday(datePicker.date) {
       timePicker.maximumDate = NSDate()
     } else {
       timePicker.maximumDate = nil
@@ -47,7 +47,7 @@ class AgoViewController: UIViewController {
     let dateToCompare = calendar.dateFromComponents(
     calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: date))
 
-    if (today == dateToCompare) {
+    if today == dateToCompare {
       return true
     }
     return false
