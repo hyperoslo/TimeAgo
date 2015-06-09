@@ -8,7 +8,8 @@
 ## Usage
 
 ```swift
-<API>
+    let now = NSDate()
+    let agoString = now.timeAgo
 ```
 
 ## Installation
