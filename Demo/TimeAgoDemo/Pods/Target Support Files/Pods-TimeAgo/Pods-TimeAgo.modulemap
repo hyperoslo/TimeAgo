@@ -1,6 +1,0 @@
-framework module TimeAgo {
-  umbrella header "Pods-TimeAgo-umbrella.h"
-
-  export *
-  module * { export * }
-}
