@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TimeAgo:
-    :path: ../../
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  TimeAgo: e82c5171b70a4ad868fc30bf13090e4fe036808d
+  TimeAgo: b933ebf3a4d886aa6489c7afc539f2dc22c86b81
 
 COCOAPODS: 0.37.2
