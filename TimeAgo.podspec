@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Source/**/*'
-  s.resources = 'Resources/**/*'
+  s.resources = 'Resources/*'
 
   s.frameworks = 'Foundation'
 end
