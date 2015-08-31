@@ -25,8 +25,8 @@ class AgoViewController: UIViewController {
   
   func calculateTimeAgoString() {
     let calendar = NSCalendar.currentCalendar()
-    let dateComponents = calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: datePicker.date)
-    let timeComponents = calendar.components(.CalendarUnitHour | .CalendarUnitMinute | .CalendarUnitSecond, fromDate: timePicker.date)
+    let dateComponents = calendar.components([.Year, .Month, .Day], fromDate: datePicker.date)
+    let timeComponents = calendar.components([.Hour, .Minute, .Second], fromDate: timePicker.date)
     
     let combinedComponents = NSDateComponents()
     combinedComponents.year = dateComponents.year
@@ -42,10 +42,10 @@ class AgoViewController: UIViewController {
   func isToday (date: NSDate) -> Bool {
     let calendar = NSCalendar.currentCalendar()
     let today = calendar.dateFromComponents(
-      calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: NSDate()))
+      calendar.components([.Year, .Month, .Day], fromDate: NSDate()))
     
     let dateToCompare = calendar.dateFromComponents(
-    calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: date))
+    calendar.components([.Year, .Month, .Day], fromDate: date))
 
     if today == dateToCompare {
       return true
