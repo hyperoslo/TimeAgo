@@ -7,18 +7,19 @@ func NSDateTimeAgoLocalizedStrings(key: String) -> String {
   return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
 }
 
-func isDateInPast (date: NSDate) {
+func isInTheFuture(date: NSDate) -> Bool {
   if (date.compare(NSDate()) == NSComparisonResult.OrderedDescending) {
-    NSException(
-      name: "NSDate+TimeAgo DateInTheFutureException",
-      reason: "Date the function is being called on has to be in the past or now, but not in the future.",
-      userInfo: nil).raise()
+    return true
   }
+  return false
 }
 
 public extension NSDate {
   var timeAgo: String {
-    isDateInPast(self)
+
+    if isInTheFuture(self) {
+      return NSDateTimeAgoLocalizedStrings("Just now")
+    }
 
     let now = NSDate()
     let seconds = Int(fabs(timeIntervalSinceDate(now)))
