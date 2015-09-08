@@ -36,7 +36,11 @@ class Tests: XCTestCase {
 
   func testMonthsAgo() {
     let days: NSTimeInterval = 14*3600*24
-    XCTAssertEqual(testString(days), String(format: "%d hours ago", Int(days)))
+
+    let formatter = NSDateFormatter()
+    formatter.dateFormat = "MMM d 'at' hh:mm"
+
+    XCTAssertEqual(testString(days), formatter.stringFromDate(NSDate()))
   }
 
   func testString(secondsAgo: NSTimeInterval) -> String {

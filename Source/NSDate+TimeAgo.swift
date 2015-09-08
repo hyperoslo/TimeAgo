@@ -41,8 +41,8 @@ public extension NSDate {
       return formatter.stringFromDate(now)
     } else {
       let formatter = NSDateFormatter()
-      formatter.dateFormat = ""
-      return NSDateTimeAgoLocalizedStrings("Yesterday")
+      formatter.dateFormat = "MMM d 'at' hh:mm"
+      return formatter.stringFromDate(now)
     }
   }
 
