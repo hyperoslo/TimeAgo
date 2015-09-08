@@ -36,8 +36,9 @@ public extension NSDate {
     } else if hours < 24 {
       return stringFromFormat("%%d %@hours ago", withValue: hours)
     } else if hours < 24 * 7 {
-      // TODO: Display the name and the hour posted
-      return NSDateTimeAgoLocalizedStrings("Yesterday")
+      let formatter = NSDateFormatter()
+      formatter.dateFormat = "EEEE"
+      return formatter.stringFromDate(now)
     } else {
       // TODO: Display the day.
       return NSDateTimeAgoLocalizedStrings("Yesterday")
