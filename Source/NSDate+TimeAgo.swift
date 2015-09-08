@@ -37,11 +37,11 @@ public extension NSDate {
       return stringFromFormat("%%d %@hours ago", withValue: hours)
     } else if hours < 24 * 7 {
       let formatter = NSDateFormatter()
-      formatter.dateFormat = "EEEE 'at' hh:mm"
+      formatter.dateFormat = String("EEEE '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
       return formatter.stringFromDate(now)
     } else {
       let formatter = NSDateFormatter()
-      formatter.dateFormat = "d MMM 'at' hh:mm"
+      formatter.dateFormat = String(format: "d MMM '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
       return formatter.stringFromDate(now)
     }
   }
