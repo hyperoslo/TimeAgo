@@ -9,8 +9,21 @@
 /* Begin PBXBuildFile section */
 		2976CD351B9EE93B002B2818 /* NSDate+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8D47E1B1C5DBC00B442FD /* NSDate+TimeAgo.swift */; settings = {ASSET_TAGS = (); }; };
 		2976CD381B9F0454002B2818 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD361B9F0454002B2818 /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		2976CD391B9F0454002B2818 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CD371B9F0454002B2818 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		2976CD3E1B9F0F21002B2818 /* NSDateTimeAgo.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2976CD3D1B9F0F21002B2818 /* NSDateTimeAgo.bundle */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2976CD3C1B9F0F11002B2818 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2976CD3E1B9F0F21002B2818 /* NSDateTimeAgo.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		14C136511AB784B200B7B07A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
@@ -21,6 +34,7 @@
 		2976CD2D1B9EE812002B2818 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CD361B9F0454002B2818 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		2976CD371B9F0454002B2818 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CD3D1B9F0F21002B2818 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NSDateTimeAgo.bundle; path = ../Pod/NSDateTimeAgo.bundle; sourceTree = "<group>"; };
 		84F8D47E1B1C5DBC00B442FD /* NSDate+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+TimeAgo.swift"; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
@@ -69,6 +83,7 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2976CD3D1B9F0F21002B2818 /* NSDateTimeAgo.bundle */,
 				84F8D47E1B1C5DBC00B442FD /* NSDate+TimeAgo.swift */,
 				14C1365C1AB784BC00B7B07A /* .gitkeep */,
 			);
@@ -95,6 +110,7 @@
 				2976CD291B9EE812002B2818 /* Sources */,
 				2976CD2A1B9EE812002B2818 /* Frameworks */,
 				2976CD2B1B9EE812002B2818 /* Resources */,
+				2976CD3C1B9F0F11002B2818 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -143,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2976CD391B9F0454002B2818 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

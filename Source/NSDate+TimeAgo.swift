@@ -3,8 +3,9 @@ import Foundation
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
   let bundlePath = NSBundle.mainBundle().bundlePath
     + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
-  let bundle = NSBundle(path: bundlePath)
-  return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
+  guard let bundle = NSBundle(path: bundlePath) else { return NSLocalizedString(key, comment: "") }
+
+  return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle, comment: "")
 }
 
 func isInTheFuture(date: NSDate) -> Bool {
@@ -33,14 +34,14 @@ public extension NSDate {
     } else if seconds < 120 {
       return NSDateTimeAgoLocalizedStrings("A minute ago")
     } else if minutes < 60 {
-      return stringFromFormat("%%d %@minutes ago", withValue:minutes)
+      return stringFromFormat("%%d %@minutes ago", withValue: minutes)
     } else if minutes < 120 {
       return NSDateTimeAgoLocalizedStrings("An hour ago")
     } else if hours < 24 {
       return stringFromFormat("%%d %@hours ago", withValue: hours)
     } else if hours < 24 * 7 {
       let formatter = NSDateFormatter()
-      formatter.dateFormat = String("EEEE '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
+      formatter.dateFormat = String(format: "EEEE '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
       return formatter.stringFromDate(now)
     } else {
       let formatter = NSDateFormatter()
