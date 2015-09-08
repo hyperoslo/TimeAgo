@@ -39,7 +39,7 @@ class Tests: XCTestCase {
 
     let formatter = NSDateFormatter()
     formatter.dateFormat = "d MMM 'at' hh:mm"
-    print(formatter.stringFromDate(NSDate()))
+
     XCTAssertEqual(testString(days), formatter.stringFromDate(NSDate()))
   }
 
