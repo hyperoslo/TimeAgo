@@ -1,10 +1,7 @@
 import Foundation
 
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
-  let bundlePath = NSBundle.mainBundle().bundlePath
-    + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
-  let bundle = NSBundle(path: bundlePath)
-  return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
+  return NSLocalizedString(key, comment: "")
 }
 
 func isInTheFuture(date: NSDate) -> Bool {
@@ -39,7 +36,7 @@ public extension NSDate {
     } else if hours < 24 {
       return stringFromFormat("%%d %@hours ago", withValue: hours)
     } else if hours < 24 * 7 {
-      // TODO: Display the name and the hour posted.
+      // TODO: Display the name and the hour posted
       return NSDateTimeAgoLocalizedStrings("Yesterday")
     } else {
       // TODO: Display the day.

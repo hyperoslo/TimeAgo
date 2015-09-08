@@ -1,35 +1,44 @@
-//
-//  Tests.swift
-//  Tests
-//
-//  Created by Ramon Gilabert Llop on 9/8/15.
-//  Copyright © 2015 Example. All rights reserved.
-//
-
+import UIKit
 import XCTest
 
 class Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+
+  func testJustNow() {
+    let now = NSDate()
+    let justNowString = now.timeAgo
+
+    XCTAssertEqual(justNowString, "Just now")
+  }
+
+  func testSecondsAgo() {
+    let seconds: NSTimeInterval = 10
+    XCTAssertEqual(testString(seconds), String(format: "%d seconds ago", Int(seconds)))
+  }
+
+  func testMinutesAgo() {
+    let minutes: NSTimeInterval = 15*60
+    XCTAssertEqual(testString(minutes), String(format: "%d minutes ago", Int(minutes)))
+  }
+
+  func testHoursAgo() {
+    let hours: NSTimeInterval = 7.5*3600
+    XCTAssertEqual(testString(hours), String(format: "%d hours ago", Int(hours)))
+  }
+
+  func testDaysAgo() {
+    let hours: NSTimeInterval = 7.5*3600
+    XCTAssertEqual(testString(hours), String(format: "%d hours ago", Int(hours)))
+  }
+
+  func testMonthsAgo() {
+    let hours: NSTimeInterval = 7.5*3600
+    XCTAssertEqual(testString(hours), String(format: "%d hours ago", Int(hours)))
+  }
+
+  func testString(secondsAgo: NSTimeInterval) -> String {
+    let timeAgo = NSDate(timeIntervalSinceNow: -secondsAgo)
+    let timeAgoString = timeAgo.timeAgo
+
+    return timeAgoString
+  }
 }
