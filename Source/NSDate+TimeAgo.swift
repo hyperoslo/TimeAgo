@@ -41,7 +41,7 @@ public extension NSDate {
       return formatter.stringFromDate(now)
     } else {
       let formatter = NSDateFormatter()
-      formatter.dateFormat = "MMM d 'at' hh:mm"
+      formatter.dateFormat = "d MMM 'at' hh:mm"
       return formatter.stringFromDate(now)
     }
   }

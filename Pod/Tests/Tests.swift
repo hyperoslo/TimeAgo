@@ -38,8 +38,8 @@ class Tests: XCTestCase {
     let days: NSTimeInterval = 14*3600*24
 
     let formatter = NSDateFormatter()
-    formatter.dateFormat = "MMM d 'at' hh:mm"
-
+    formatter.dateFormat = "d MMM 'at' hh:mm"
+    print(formatter.stringFromDate(NSDate()))
     XCTAssertEqual(testString(days), formatter.stringFromDate(NSDate()))
   }
 
