@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2976CD301B9EE812002B2818 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD2F1B9EE812002B2818 /* Tests.swift */; };
 		2976CD351B9EE93B002B2818 /* NSDate+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8D47E1B1C5DBC00B442FD /* NSDate+TimeAgo.swift */; settings = {ASSET_TAGS = (); }; };
+		2976CD381B9F0454002B2818 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD361B9F0454002B2818 /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
+		2976CD391B9F0454002B2818 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CD371B9F0454002B2818 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
-		14A139B31AEFC72B00AD732F /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		14C136511AB784B200B7B07A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		14C1365C1AB784BC00B7B07A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2976CD2D1B9EE812002B2818 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2976CD2F1B9EE812002B2818 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		2976CD311B9EE812002B2818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CD361B9F0454002B2818 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		2976CD371B9F0454002B2818 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F8D47E1B1C5DBC00B442FD /* NSDate+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+TimeAgo.swift"; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
@@ -42,7 +40,6 @@
 			children = (
 				14C1365B1AB784BC00B7B07A /* Source */,
 				14C136501AB7849300B7B07A /* Metadata */,
-				146D72AF1AB782920058798C /* Tests */,
 				2976CD2E1B9EE812002B2818 /* Tests */,
 				146D72941AB782920058798C /* Products */,
 			);
@@ -56,24 +53,6 @@
 				2976CD2D1B9EE812002B2818 /* Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		146D72AF1AB782920058798C /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				146D72B01AB782920058798C /* Supporting Files */,
-				14A139B31AEFC72B00AD732F /* Tests.swift */,
-				14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		146D72B01AB782920058798C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				146D72B11AB782920058798C /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		14C136501AB7849300B7B07A /* Metadata */ = {
@@ -100,8 +79,8 @@
 		2976CD2E1B9EE812002B2818 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2976CD2F1B9EE812002B2818 /* Tests.swift */,
-				2976CD311B9EE812002B2818 /* Info.plist */,
+				2976CD361B9F0454002B2818 /* Tests.swift */,
+				2976CD371B9F0454002B2818 /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -163,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2976CD391B9F0454002B2818 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2976CD301B9EE812002B2818 /* Tests.swift in Sources */,
 				2976CD351B9EE93B002B2818 /* NSDate+TimeAgo.swift in Sources */,
+				2976CD381B9F0454002B2818 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
