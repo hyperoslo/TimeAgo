@@ -1,7 +1,10 @@
 import Foundation
 
 func NSDateTimeAgoLocalizedStrings(key: String) -> String {
-  return NSLocalizedString(key, comment: "")
+  let bundlePath = NSBundle.mainBundle().bundlePath
+    + "/Frameworks/TimeAgo.framework/NSDateTimeAgo.bundle"
+  let bundle = NSBundle(path: bundlePath)
+  return NSLocalizedString(key, tableName: "NSDateTimeAgo", bundle: bundle!, comment: "")
 }
 
 func isInTheFuture(date: NSDate) -> Bool {
