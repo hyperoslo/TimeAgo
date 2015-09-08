@@ -30,8 +30,6 @@ public extension NSDate {
     let months = Int(round(Float(days) / 30.0))
     let years = Int(round(Float(days) / 365))
 
-    var value: Int!
-
     if seconds < 5 {
       // Just Now
       return NSDateTimeAgoLocalizedStrings("Just now")
