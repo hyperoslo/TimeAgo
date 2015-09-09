@@ -42,11 +42,11 @@ public extension NSDate {
     } else if hours < 24 * 7 {
       let formatter = NSDateFormatter()
       formatter.dateFormat = String(format: "EEEE '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
-      return formatter.stringFromDate(now)
+      return formatter.stringFromDate(self)
     } else {
       let formatter = NSDateFormatter()
       formatter.dateFormat = String(format: "d MMM '%@' hh:mm", NSDateTimeAgoLocalizedStrings("at"))
-      return formatter.stringFromDate(now)
+      return formatter.stringFromDate(self)
     }
   }
 
