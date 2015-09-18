@@ -74,8 +74,8 @@
 
 "Now" = "Now";
 
-"sec" = "sec";
+"%d sec" = "%d sec";
 
-"min" = "min";
+"%d min" = "%d min";
 
-"h" = "h";
+"%d h" = "%d h";
