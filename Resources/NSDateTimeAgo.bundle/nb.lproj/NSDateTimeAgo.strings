@@ -125,3 +125,23 @@
 "This year" = "Dette året";
 
 "at" = "kl";
+
+"Now" = "Nå";
+
+"%d sec" = "%d sek";
+
+"%d _sec" = "%d sek";
+
+"%d __sec" = "%d sek";
+
+"%d min" = "%d min";
+
+"%d _min" = "%d min";
+
+"%d __min" = "%d min";
+
+"%d h" = "%d t";
+
+"%d _h" = "%d t";
+
+"%d __h" = "%d t";

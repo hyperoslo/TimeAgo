@@ -18,9 +18,9 @@ class AgoViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    dateLabel.text = "Just now"
     timePicker.maximumDate = NSDate()
     datePicker.maximumDate = NSDate()
+    calculateTimeAgoString()
   }
   
   func calculateTimeAgoString() {
@@ -36,7 +36,7 @@ class AgoViewController: UIViewController {
     combinedComponents.minute = timeComponents.minute
     combinedComponents.second = timeComponents.second
     
-    dateLabel.text = calendar.dateFromComponents(combinedComponents)?.timeAgo
+    dateLabel.text = calendar.dateFromComponents(combinedComponents)?.timeSince
   }
   
   func isToday (date: NSDate) -> Bool {
