@@ -28,17 +28,13 @@ public extension NSDate {
     let hours = Int(round(Float(minutes) / 60.0))
 
     if seconds < 5 {
-      return NSDateTimeAgoLocalizedStrings("Just now")
+      return NSDateTimeAgoLocalizedStrings("Now")
     } else if seconds < 60 {
-      return stringFromFormat("%%d %@seconds ago", withValue: seconds)
-    } else if seconds < 120 {
-      return NSDateTimeAgoLocalizedStrings("A minute ago")
+      return stringFromFormat("%%d %@sec", withValue: seconds)
     } else if minutes < 60 {
-      return stringFromFormat("%%d %@minutes ago", withValue: minutes)
-    } else if minutes < 120 {
-      return NSDateTimeAgoLocalizedStrings("An hour ago")
+      return stringFromFormat("%%d %@min", withValue: minutes)
     } else if hours < 24 {
-      return stringFromFormat("%%d %@hours ago", withValue: hours)
+      return stringFromFormat("%%d %@h", withValue: hours)
     } else if hours < 24 * 7 {
       let formatter = NSDateFormatter()
       formatter.dateFormat = String(format: "EEEE '%@' HH:mm", NSDateTimeAgoLocalizedStrings("at"))
